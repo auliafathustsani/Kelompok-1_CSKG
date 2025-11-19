@@ -1,5 +1,0 @@
-@prefix ti: <http://example.org/ontology/threat-intelligence#> .
-@prefix maec: <http://example.org/ontology/malware-action#> .
-
-# Tautan yang menyatakan: Malware Action ma-001 diobservasi dari ELLIO Threat Feed
-<http://example.org/malware/action/ma-001> ti:hasObservedIndicator <http://example.org/resource/feed/https%3A%2F%2Fcdn.ellio.tech%2Fcommunity-feed> .

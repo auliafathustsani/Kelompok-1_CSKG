@@ -1,5 +1,0 @@
-
-<http://example.org/malware/api/WriteFile> a <http://example.org/ontology/malware-action#APICall> .
-
-<http://example.org/malware/action/ma-001> a <http://example.org/ontology/malware-action#MalwareAction> ;
-	<http://example.org/ontology/malware-action#invokesAPICall> <http://example.org/malware/api/WriteFile> .
