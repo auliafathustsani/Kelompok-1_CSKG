@@ -1,0 +1,528 @@
+
+<http://example.org/resource/tag/osint%3Asource-type%3D%22block-or-filter-list%22> a <http://example.org/ontology/threat-intelligence#Tag> ;
+	<http://example.org/ontology/threat-intelligence#tagName> "osint:source-type=\"block-or-filter-list\"" .
+
+<http://example.org/resource/tag/osint%3Asource-type%3D%22automatic-collection%22> a <http://example.org/ontology/threat-intelligence#Tag> ;
+	<http://example.org/ontology/threat-intelligence#tagName> "osint:source-type=\"automatic-collection\"" .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcdn.ellio.tech%2Fcommunity-feed> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cdn.ellio.tech/community-feed> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "ELLIO: IP Feed (Community version)" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "ellio.tech" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fwww.circl.lu%2Fdoc%2Fmisp%2Ffeed-osint> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://www.circl.lu/doc/misp/feed-osint> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "CIRCL OSINT Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "CIRCL" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fwww.botvrij.eu%2Fdata%2Ffeed-osint> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://www.botvrij.eu/data/feed-osint> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "The Botvrij.eu Data" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Botvrij.eu" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Frules.emergingthreats.net%2Fblockrules%2Fcompromised-ips.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://rules.emergingthreats.net/blockrules/compromised-ips.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "blockrules of rules.emergingthreats.net" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "rules.emergingthreats.net" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fwww.dan.me.uk%2Ftorlist%2F%3Fexit> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://www.dan.me.uk/torlist/?exit> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Tor exit nodes" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "TOR Node List from dan.me.uk - careful, this feed applies a lock-out after each pull. This is shared with the \"Tor ALL nodes\" feed." ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fwww.dan.me.uk%2Ftorlist%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://www.dan.me.uk/torlist/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Tor ALL nodes" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "TOR Node List from dan.me.uk - careful, this feed applies a lock-out after each pull. This is shared with the \"Tor exit nodes\" feed." ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcybercrime-tracker.net%2Fall.php> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cybercrime-tracker.net/all.php> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "cybercrime-tracker.net - all" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "cybercrime-tracker.net" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdata.phishtank.com%2Fdata%2Fonline-valid.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://data.phishtank.com/data/online-valid.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Phishtank online valid phishing" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Phishtank" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fsnort.org%2Fdownloads%2Fip-block-list> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://snort.org/downloads/ip-block-list> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "ip-block-list - snort.org" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "https://snort.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fpan-unit42%2Fiocs%2Fmaster%2Fdiamondfox%2Fdiamondfox_panels.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/pan-unit42/iocs/master/diamondfox/diamondfox_panels.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "diamondfox_panels" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "pan-unit42" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fhome.nuug.no%2F~peter%2Fpop3gropers.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://home.nuug.no/~peter/pop3gropers.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "pop3gropers" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "home.nuug.no" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Ffeodotracker.abuse.ch%2Fdownloads%2Fipblocklist.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://feodotracker.abuse.ch/downloads/ipblocklist.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Feodo IP Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fopenphish%2Fpublic_feed%2Frefs%2Fheads%2Fmain%2Ffeed.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "OpenPhish url list" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "openphish.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fktsaou%2Fblocklist-ipsets%2Fmaster%2Ffirehol_level1.netset> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "firehol_level1" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "iplists.firehol.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fosint.bambenekconsulting.com%2Ffeeds%2Fc2-ipmasterlist-high.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPs from High-Confidence DGA-Based C&Cs Actively Resolving - requires a valid license" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "osint.bambenekconsulting.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fosint.bambenekconsulting.com%2Ffeeds%2Fc2-dommasterlist-high.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Domains from High-Confidence DGA-based C&C Domains Actively Resolving" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "osint.bambenekconsulting.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcinsscore.com%2Flist%2Fci-badguys.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cinsscore.com/list/ci-badguys.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "ci-badguys.txt" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "cinsscore.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Freputation.alienvault.com%2Freputation.generic> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://reputation.alienvault.com/reputation.generic> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "alienvault reputation generic" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> ".alienvault.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Flists.blocklist.de%2Flists%2Fall.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://lists.blocklist.de/lists/all.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "blocklist.de/lists/all.txt" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "blocklist.de" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fvncrfb.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/vncrfb.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "VNC RFB" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsshpwauth.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/sshpwauth.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "sshpwauth.txt" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsipregistration.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/sipregistration.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "sipregistration" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsipquery.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/sipquery.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "sipquery" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsipinvitation.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/sipinvitation.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "sipinvitation" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fdnsrd.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/dnsrd.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "DNS recursion desired" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fdnsrdany.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/dnsrdany.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "DNS recursion desired IN ANY" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fdnsversion.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/dnsversion.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "DNS CH TXT version.bind" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fproto41.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/proto41.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IP protocol 41" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsmtpdata.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/smtpdata.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "SMTP data" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Fsmtpgreet.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/smtpgreet.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "SMTP greet" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fdataplane.org%2Ftelnetlogin.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://dataplane.org/telnetlogin.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "TELNET login" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "dataplane.org" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fosint.bambenekconsulting.com%2Ffeeds%2Fdga-feed-high.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "All current domains belonging to known malicious DGAs" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "osint.bambenekconsulting.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/http%3A%2F%2Fvxvault.net%2FURL_List.php> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <http://vxvault.net/URL_List.php> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "VXvault - URL List" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "VXvault" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fsslbl.abuse.ch%2Fblacklist%2Fsslblacklist.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://sslbl.abuse.ch/blacklist/sslblacklist.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "abuse.ch SSL IPBL" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcybercrime-tracker.net%2Fccamlist.php> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cybercrime-tracker.net/ccamlist.php> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "http://cybercrime-tracker.net hashlist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "http://cybercrime-tracker.net hashlist" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcybercrime-tracker.net%2Fccamgate.php> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cybercrime-tracker.net/ccamgate.php> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "http://cybercrime-tracker.net gatelist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "http://cybercrime-tracker.net gatelist" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fblocklist.greensnow.co%2Fgreensnow.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://blocklist.greensnow.co/greensnow.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "blocklist.greensnow.co" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "greensnow.co" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fgitlab.com%2FZeroDot1%2FCoinBlockerLists%2Fraw%2Fmaster%2Flist.txt%3Finline%3Dfalse> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list.txt?inline=false> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "This list contains all domains - A list for administrators to prevent mining in networks" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "ZeroDot1 - CoinBlockerLists" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fgitlab.com%2FZeroDot1%2FCoinBlockerLists%2Fraw%2Fmaster%2Flist_optional.txt%3Finline%3Dfalse> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_optional.txt?inline=false> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "This list contains all optional domains - An additional list for administrators" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "ZeroDot1 - CoinBlockerLists" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fgitlab.com%2FZeroDot1%2FCoinBlockerLists%2Fraw%2Fmaster%2Flist_browser.txt%3Finline%3Dfalse> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt?inline=false> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "This list contains all browser mining domains - A list to prevent browser mining only" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "ZeroDot1 - CoinBlockerLists" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Furlhaus.abuse.ch%2Fdownloads%2Fcsv_recent%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://urlhaus.abuse.ch/downloads/csv_recent/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "URLHaus Malware URLs" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fapi.cybercure.ai%2Ffeed%2Fget_ips%3Ftype%3Dcsv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://api.cybercure.ai/feed/get_ips?type=csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "CyberCure - IP Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "www.cybercure.ai" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fapi.cybercure.ai%2Ffeed%2Fget_url%3Ftype%3Dcsv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://api.cybercure.ai/feed/get_url?type=csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "CyberCure - Blocked URL Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "www.cybercure.ai" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fapi.cybercure.ai%2Ffeed%2Fget_hash%3Ftype%3Dcsv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://api.cybercure.ai/feed/get_hash?type=csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "CyberCure - Hash Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "www.cybercure.ai" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/http%3A%2F%2Fwww.ipspamlist.com%2Fpublic_feeds.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <http://www.ipspamlist.com/public_feeds.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "ipspamlist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "ipspamlist" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fmalsilo.gitlab.io%2Ffeeds%2Fdumps%2Furl_list.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://malsilo.gitlab.io/feeds/dumps/url_list.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "malsilo.url" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "MalSilo" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fmalsilo.gitlab.io%2Ffeeds%2Fdumps%2Fip_list.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://malsilo.gitlab.io/feeds/dumps/ip_list.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "malsilo.ipv4" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "MalSilo" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fmalsilo.gitlab.io%2Ffeeds%2Fdumps%2Fdomain_list.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://malsilo.gitlab.io/feeds/dumps/domain_list.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "malsilo.domain" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "MalSilo" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fmalshare.com%2Fdaily%2Fmalshare.current.all.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://malshare.com/daily/malshare.current.all.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "malshare.com - current all" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "malshare.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fbenkow.cc%2Fexport.php> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://benkow.cc/export.php> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Panels Tracker" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Benkow.cc" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F1.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 1 - lot of false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F2.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 2 - medium false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F3.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 3 - low false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F4.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 4 - very low false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F5.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 5 - ultra false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F6.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 6 - no false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F7.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 7 - no false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Fstamparm%2Fipsum%2Fmaster%2Flevels%2F8.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "IPsum (aggregation of all feeds) - level 8 - no false positives" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "IPsum" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fosint.digitalside.it%2FThreat-Intel%2Fdigitalside-misp-feed%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "DigitalSide Threat-Intel OSINT Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "osint.digitalside.it" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Ffeeds.ecrimelabs.net%2Fdata%2Fmetasploit-cve> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://feeds.ecrimelabs.net/data/metasploit-cve> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Metasploit exploits with CVE assigned" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "eCrimeLabs" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fbazaar.abuse.ch%2Fexport%2Ftxt%2Fmd5%2Frecent%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://bazaar.abuse.ch/export/txt/md5/recent/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Malware Bazaar" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fphishstats.info%2Fphish_score.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://phishstats.info/phish_score.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "PhishScore" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "PhishStats" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatfox.abuse.ch%2Fdownloads%2Fmisp%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatfox.abuse.ch/downloads/misp/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatfox" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fbazaar.abuse.ch%2Fdownloads%2Fmisp%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://bazaar.abuse.ch/downloads/misp/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "MalwareBazaar" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Furlhaus.abuse.ch%2Fdownloads%2Fmisp%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://urlhaus.abuse.ch/downloads/misp/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "URLhaus" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Ffeeds.honeynet.asia%2Furl%2Flatest-url-unique.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://feeds.honeynet.asia/url/latest-url-unique.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "URL Seen in honeypots" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "APNIC Community Honeynet Project" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Ffeeds.honeynet.asia%2Fbruteforce%2Flatest-sshbruteforce-unique.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://feeds.honeynet.asia/bruteforce/latest-sshbruteforce-unique.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "SSH Bruteforce IPs" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "APNIC Community Honeynet Project" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Ffeeds.honeynet.asia%2Fbruteforce%2Flatest-telnetbruteforce-unique.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://feeds.honeynet.asia/bruteforce/latest-telnetbruteforce-unique.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Telnet Bruteforce IPs" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "APNIC Community Honeynet Project" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatfox.abuse.ch%2Fexport%2Fcsv%2Frecent%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatfox.abuse.ch/export/csv/recent/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "threatfox indicators of compromise" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "abuse.ch" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> false .
+
+<http://example.org/resource/feed/https%3A%2F%2Fjamesbrine.com.au%2Fcsv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://jamesbrine.com.au/csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "James Brine Bruteforce IPs" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "jamesbrine.com.au" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fhole.cert.pl%2Fdomains%2Fdomains.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://hole.cert.pl/domains/domains.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "List of malicious domains in Poland" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "CERT-PL" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fcti.bb.com.br%3A8443%2Fhash-list.csv> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://cti.bb.com.br:8443/hash-list.csv> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "List of malicious hashes" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Banco do Brasil S.A" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fshreshtait.com%2Fnewly-registered-domains%2Fnrd-1w> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://shreshtait.com/newly-registered-domains/nrd-1w> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Shreshta: Newly Registered domain names(NRD) - 1 week (Community policy feed)" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "shreshtait.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fshreshtait.com%2Fnewly-registered-domains%2Fnrd-1m> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://shreshtait.com/newly-registered-domains/nrd-1m> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Shreshta: Newly Registered domain names (NRD) - 1 month (Community policy feed)" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "shreshtait.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fraw.githubusercontent.com%2Finfobloxopen%2Fthreat-intelligence%2Fmain%2Findicators%2Fmisp> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://raw.githubusercontent.com/infobloxopen/threat-intelligence/main/indicators/misp> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Infoblox-Threat-Intelligence" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "infoblox.com" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FExperimental-IOC-Tweets.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/Experimental-IOC-Tweets.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - OSINT Threat Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FHigh-Confidence-CobaltStrike-C2%2520-Feeds.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - C2 Hunt Feed" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FIP-High-Confidence-Feed.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/IP-High-Confidence-Feed.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - IP Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FDOMAIN-High-Confidence-Feed.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - Domain Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FMD5-HASH-ALL.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/MD5-HASH-ALL.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - MD5 Hash Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FURL-High-Confidence-Feed.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/URL-High-Confidence-Feed.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - URL Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FMALICIOUS-BITCOIN_FEED.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - Bitcoin Address Intel" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fthreatview.io%2FDownloads%2FSHA-HASH-FEED.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://threatview.io/Downloads/SHA-HASH-FEED.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Threatview.io - SHA File Hash Blocklist" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "threatview.io" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Frosti.64617461.xyz%2Fdownloads%2Fmisp%2F> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://rosti.64617461.xyz/downloads/misp/> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Rösti - Repackaged Öpen Source Threat Intelligence" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "bin.re" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fphish.co.za%2Flatest%2Fphishing-domains-NEW-today.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://phish.co.za/latest/phishing-domains-NEW-today.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Phishing.Database - New domains of today" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Phishing.Database" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fphish.co.za%2Flatest%2Fphishing-IPs-NEW-today.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://phish.co.za/latest/phishing-IPs-NEW-today.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Phishing.Database - New IPs of today" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Phishing.Database" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
+
+<http://example.org/resource/feed/https%3A%2F%2Fphish.co.za%2Flatest%2Fphishing-links-NEW-today.txt> a <http://example.org/ontology/threat-intelligence#ThreatIntelligenceFeed> ;
+	<http://example.org/ontology/threat-intelligence#hasURL> <https://phish.co.za/latest/phishing-links-NEW-today.txt> ;
+	<http://example.org/ontology/threat-intelligence#hasName> "Phishing.Database - New URLs of today" ;
+	<http://example.org/ontology/threat-intelligence#hasProvider> "Phishing.Database" ;
+	<http://example.org/ontology/threat-intelligence#isEnabled> true .
