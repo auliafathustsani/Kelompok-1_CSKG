@@ -1,0 +1,1356 @@
+
+<http://example.org/nist80053/control/ac-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-1" .
+
+<http://example.org/nist80053/control/ac-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Account Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-2" .
+
+<http://example.org/nist80053/control/ac-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Enforcement" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-3" .
+
+<http://example.org/nist80053/control/ac-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Flow Enforcement" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-4" .
+
+<http://example.org/nist80053/control/ac-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Separation of Duties" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-5" .
+
+<http://example.org/nist80053/control/ac-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Least Privilege" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-6" .
+
+<http://example.org/nist80053/control/ac-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Unsuccessful Logon Attempts" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-7" .
+
+<http://example.org/nist80053/control/ac-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Use Notification" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-8" .
+
+<http://example.org/nist80053/control/ac-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Previous Logon Notification" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-9" .
+
+<http://example.org/nist80053/control/ac-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Concurrent Session Control" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-10" .
+
+<http://example.org/nist80053/control/ac-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Device Lock" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-11" .
+
+<http://example.org/nist80053/control/ac-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Session Termination" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-12" .
+
+<http://example.org/nist80053/control/ac-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supervision and Review — Access Control" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-13" .
+
+<http://example.org/nist80053/control/ac-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Permitted Actions Without Identification or Authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-14" .
+
+<http://example.org/nist80053/control/ac-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Automated Marking" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-15" .
+
+<http://example.org/nist80053/control/ac-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Attributes" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-16" .
+
+<http://example.org/nist80053/control/ac-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Remote Access" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-17" .
+
+<http://example.org/nist80053/control/ac-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Wireless Access" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-18" .
+
+<http://example.org/nist80053/control/ac-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Control for Mobile Devices" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-19" .
+
+<http://example.org/nist80053/control/ac-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Use of External Systems" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-20" .
+
+<http://example.org/nist80053/control/ac-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Sharing" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-21" .
+
+<http://example.org/nist80053/control/ac-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Publicly Accessible Content" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-22" .
+
+<http://example.org/nist80053/control/ac-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Data Mining Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-23" .
+
+<http://example.org/nist80053/control/ac-24> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Control Decisions" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-24" .
+
+<http://example.org/nist80053/control/ac-25> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Reference Monitor" ;
+	<http://example.org/ontology/security-control#hasControlID> "ac-25" .
+
+<http://example.org/nist80053/control/at-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-1" .
+
+<http://example.org/nist80053/control/at-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Literacy Training and Awareness" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-2" .
+
+<http://example.org/nist80053/control/at-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Role-based Training" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-3" .
+
+<http://example.org/nist80053/control/at-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Training Records" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-4" .
+
+<http://example.org/nist80053/control/at-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contacts with Security Groups and Associations" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-5" .
+
+<http://example.org/nist80053/control/at-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Training Feedback" ;
+	<http://example.org/ontology/security-control#hasControlID> "at-6" .
+
+<http://example.org/nist80053/control/au-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-1" .
+
+<http://example.org/nist80053/control/au-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Event Logging" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-2" .
+
+<http://example.org/nist80053/control/au-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Content of Audit Records" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-3" .
+
+<http://example.org/nist80053/control/au-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit Log Storage Capacity" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-4" .
+
+<http://example.org/nist80053/control/au-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Response to Audit Logging Process Failures" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-5" .
+
+<http://example.org/nist80053/control/au-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit Record Review, Analysis, and Reporting" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-6" .
+
+<http://example.org/nist80053/control/au-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit Record Reduction and Report Generation" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-7" .
+
+<http://example.org/nist80053/control/au-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Time Stamps" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-8" .
+
+<http://example.org/nist80053/control/au-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Protection of Audit Information" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-9" .
+
+<http://example.org/nist80053/control/au-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Non-repudiation" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-10" .
+
+<http://example.org/nist80053/control/au-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit Record Retention" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-11" .
+
+<http://example.org/nist80053/control/au-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit Record Generation" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-12" .
+
+<http://example.org/nist80053/control/au-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Monitoring for Information Disclosure" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-13" .
+
+<http://example.org/nist80053/control/au-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Session Audit" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-14" .
+
+<http://example.org/nist80053/control/au-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Audit Logging Capability" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-15" .
+
+<http://example.org/nist80053/control/au-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cross-organizational Audit Logging" ;
+	<http://example.org/ontology/security-control#hasControlID> "au-16" .
+
+<http://example.org/nist80053/control/ca-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-1" .
+
+<http://example.org/nist80053/control/ca-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Control Assessments" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-2" .
+
+<http://example.org/nist80053/control/ca-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Exchange" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-3" .
+
+<http://example.org/nist80053/control/ca-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security Certification" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-4" .
+
+<http://example.org/nist80053/control/ca-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Plan of Action and Milestones" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-5" .
+
+<http://example.org/nist80053/control/ca-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Authorization" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-6" .
+
+<http://example.org/nist80053/control/ca-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Continuous Monitoring" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-7" .
+
+<http://example.org/nist80053/control/ca-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Penetration Testing" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-8" .
+
+<http://example.org/nist80053/control/ca-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Internal System Connections" ;
+	<http://example.org/ontology/security-control#hasControlID> "ca-9" .
+
+<http://example.org/nist80053/control/cm-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-1" .
+
+<http://example.org/nist80053/control/cm-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Baseline Configuration" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-2" .
+
+<http://example.org/nist80053/control/cm-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Configuration Change Control" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-3" .
+
+<http://example.org/nist80053/control/cm-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Impact Analyses" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-4" .
+
+<http://example.org/nist80053/control/cm-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Restrictions for Change" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-5" .
+
+<http://example.org/nist80053/control/cm-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Configuration Settings" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-6" .
+
+<http://example.org/nist80053/control/cm-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Least Functionality" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-7" .
+
+<http://example.org/nist80053/control/cm-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Component Inventory" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-8" .
+
+<http://example.org/nist80053/control/cm-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Configuration Management Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-9" .
+
+<http://example.org/nist80053/control/cm-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Software Usage Restrictions" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-10" .
+
+<http://example.org/nist80053/control/cm-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "User-installed Software" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-11" .
+
+<http://example.org/nist80053/control/cm-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Location" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-12" .
+
+<http://example.org/nist80053/control/cm-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Data Action Mapping" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-13" .
+
+<http://example.org/nist80053/control/cm-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Signed Components" ;
+	<http://example.org/ontology/security-control#hasControlID> "cm-14" .
+
+<http://example.org/nist80053/control/cp-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-1" .
+
+<http://example.org/nist80053/control/cp-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contingency Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-2" .
+
+<http://example.org/nist80053/control/cp-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contingency Training" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-3" .
+
+<http://example.org/nist80053/control/cp-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contingency Plan Testing" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-4" .
+
+<http://example.org/nist80053/control/cp-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contingency Plan Update" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-5" .
+
+<http://example.org/nist80053/control/cp-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Storage Site" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-6" .
+
+<http://example.org/nist80053/control/cp-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Processing Site" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-7" .
+
+<http://example.org/nist80053/control/cp-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Telecommunications Services" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-8" .
+
+<http://example.org/nist80053/control/cp-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Backup" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-9" .
+
+<http://example.org/nist80053/control/cp-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Recovery and Reconstitution" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-10" .
+
+<http://example.org/nist80053/control/cp-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Communications Protocols" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-11" .
+
+<http://example.org/nist80053/control/cp-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Safe Mode" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-12" .
+
+<http://example.org/nist80053/control/cp-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternative Security Mechanisms" ;
+	<http://example.org/ontology/security-control#hasControlID> "cp-13" .
+
+<http://example.org/nist80053/control/ia-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-1" .
+
+<http://example.org/nist80053/control/ia-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identification and Authentication (Organizational Users)" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-2" .
+
+<http://example.org/nist80053/control/ia-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Device Identification and Authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-3" .
+
+<http://example.org/nist80053/control/ia-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identifier Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-4" .
+
+<http://example.org/nist80053/control/ia-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Authenticator Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-5" .
+
+<http://example.org/nist80053/control/ia-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Authentication Feedback" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-6" .
+
+<http://example.org/nist80053/control/ia-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cryptographic Module Authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-7" .
+
+<http://example.org/nist80053/control/ia-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identification and Authentication (Non-organizational Users)" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-8" .
+
+<http://example.org/nist80053/control/ia-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Service Identification and Authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-9" .
+
+<http://example.org/nist80053/control/ia-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Adaptive Authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-10" .
+
+<http://example.org/nist80053/control/ia-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Re-authentication" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-11" .
+
+<http://example.org/nist80053/control/ia-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identity Proofing" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-12" .
+
+<http://example.org/nist80053/control/ia-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identity Providers and Authorization Servers" ;
+	<http://example.org/ontology/security-control#hasControlID> "ia-13" .
+
+<http://example.org/nist80053/control/ir-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-1" .
+
+<http://example.org/nist80053/control/ir-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Response Training" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-2" .
+
+<http://example.org/nist80053/control/ir-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Response Testing" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-3" .
+
+<http://example.org/nist80053/control/ir-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Handling" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-4" .
+
+<http://example.org/nist80053/control/ir-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Monitoring" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-5" .
+
+<http://example.org/nist80053/control/ir-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Reporting" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-6" .
+
+<http://example.org/nist80053/control/ir-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Response Assistance" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-7" .
+
+<http://example.org/nist80053/control/ir-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Response Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-8" .
+
+<http://example.org/nist80053/control/ir-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Spillage Response" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-9" .
+
+<http://example.org/nist80053/control/ir-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Integrated Information Security Analysis Team" ;
+	<http://example.org/ontology/security-control#hasControlID> "ir-10" .
+
+<http://example.org/nist80053/control/ma-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-1" .
+
+<http://example.org/nist80053/control/ma-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Controlled Maintenance" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-2" .
+
+<http://example.org/nist80053/control/ma-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Maintenance Tools" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-3" .
+
+<http://example.org/nist80053/control/ma-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Nonlocal Maintenance" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-4" .
+
+<http://example.org/nist80053/control/ma-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Maintenance Personnel" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-5" .
+
+<http://example.org/nist80053/control/ma-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Timely Maintenance" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-6" .
+
+<http://example.org/nist80053/control/ma-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Field Maintenance" ;
+	<http://example.org/ontology/security-control#hasControlID> "ma-7" .
+
+<http://example.org/nist80053/control/mp-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-1" .
+
+<http://example.org/nist80053/control/mp-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Access" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-2" .
+
+<http://example.org/nist80053/control/mp-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Marking" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-3" .
+
+<http://example.org/nist80053/control/mp-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Storage" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-4" .
+
+<http://example.org/nist80053/control/mp-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Transport" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-5" .
+
+<http://example.org/nist80053/control/mp-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Sanitization" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-6" .
+
+<http://example.org/nist80053/control/mp-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Use" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-7" .
+
+<http://example.org/nist80053/control/mp-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Downgrading" ;
+	<http://example.org/ontology/security-control#hasControlID> "mp-8" .
+
+<http://example.org/nist80053/control/pe-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-1" .
+
+<http://example.org/nist80053/control/pe-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Physical Access Authorizations" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-2" .
+
+<http://example.org/nist80053/control/pe-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Physical Access Control" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-3" .
+
+<http://example.org/nist80053/control/pe-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Control for Transmission" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-4" .
+
+<http://example.org/nist80053/control/pe-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Control for Output Devices" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-5" .
+
+<http://example.org/nist80053/control/pe-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Monitoring Physical Access" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-6" .
+
+<http://example.org/nist80053/control/pe-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Visitor Control" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-7" .
+
+<http://example.org/nist80053/control/pe-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Visitor Access Records" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-8" .
+
+<http://example.org/nist80053/control/pe-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Power Equipment and Cabling" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-9" .
+
+<http://example.org/nist80053/control/pe-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Emergency Shutoff" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-10" .
+
+<http://example.org/nist80053/control/pe-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Emergency Power" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-11" .
+
+<http://example.org/nist80053/control/pe-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Emergency Lighting" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-12" .
+
+<http://example.org/nist80053/control/pe-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fire Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-13" .
+
+<http://example.org/nist80053/control/pe-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Environmental Controls" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-14" .
+
+<http://example.org/nist80053/control/pe-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Water Damage Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-15" .
+
+<http://example.org/nist80053/control/pe-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Delivery and Removal" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-16" .
+
+<http://example.org/nist80053/control/pe-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Work Site" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-17" .
+
+<http://example.org/nist80053/control/pe-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Location of System Components" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-18" .
+
+<http://example.org/nist80053/control/pe-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Leakage" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-19" .
+
+<http://example.org/nist80053/control/pe-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Asset Monitoring and Tracking" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-20" .
+
+<http://example.org/nist80053/control/pe-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Electromagnetic Pulse Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-21" .
+
+<http://example.org/nist80053/control/pe-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Component Marking" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-22" .
+
+<http://example.org/nist80053/control/pe-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Facility Location" ;
+	<http://example.org/ontology/security-control#hasControlID> "pe-23" .
+
+<http://example.org/nist80053/control/pl-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-1" .
+
+<http://example.org/nist80053/control/pl-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Security and Privacy Plans" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-2" .
+
+<http://example.org/nist80053/control/pl-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Security Plan Update" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-3" .
+
+<http://example.org/nist80053/control/pl-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Rules of Behavior" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-4" .
+
+<http://example.org/nist80053/control/pl-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Impact Assessment" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-5" .
+
+<http://example.org/nist80053/control/pl-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security-related Activity Planning" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-6" .
+
+<http://example.org/nist80053/control/pl-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Concept of Operations" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-7" .
+
+<http://example.org/nist80053/control/pl-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Architectures" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-8" .
+
+<http://example.org/nist80053/control/pl-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Central Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-9" .
+
+<http://example.org/nist80053/control/pl-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Baseline Selection" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-10" .
+
+<http://example.org/nist80053/control/pl-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Baseline Tailoring" ;
+	<http://example.org/ontology/security-control#hasControlID> "pl-11" .
+
+<http://example.org/nist80053/control/pm-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Security Program Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-1" .
+
+<http://example.org/nist80053/control/pm-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Security Program Leadership Role" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-2" .
+
+<http://example.org/nist80053/control/pm-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Security and Privacy Resources" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-3" .
+
+<http://example.org/nist80053/control/pm-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Plan of Action and Milestones Process" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-4" .
+
+<http://example.org/nist80053/control/pm-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Inventory" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-5" .
+
+<http://example.org/nist80053/control/pm-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Measures of Performance" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-6" .
+
+<http://example.org/nist80053/control/pm-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Enterprise Architecture" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-7" .
+
+<http://example.org/nist80053/control/pm-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Critical Infrastructure Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-8" .
+
+<http://example.org/nist80053/control/pm-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Management Strategy" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-9" .
+
+<http://example.org/nist80053/control/pm-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Authorization Process" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-10" .
+
+<http://example.org/nist80053/control/pm-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Mission and Business Process Definition" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-11" .
+
+<http://example.org/nist80053/control/pm-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Insider Threat Program" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-12" .
+
+<http://example.org/nist80053/control/pm-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Workforce" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-13" .
+
+<http://example.org/nist80053/control/pm-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Testing, Training, and Monitoring" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-14" .
+
+<http://example.org/nist80053/control/pm-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Groups and Associations" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-15" .
+
+<http://example.org/nist80053/control/pm-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Threat Awareness Program" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-16" .
+
+<http://example.org/nist80053/control/pm-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Protecting Controlled Unclassified Information on External Systems" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-17" .
+
+<http://example.org/nist80053/control/pm-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Program Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-18" .
+
+<http://example.org/nist80053/control/pm-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Program Leadership Role" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-19" .
+
+<http://example.org/nist80053/control/pm-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Dissemination of Privacy Program Information" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-20" .
+
+<http://example.org/nist80053/control/pm-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Accounting of Disclosures" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-21" .
+
+<http://example.org/nist80053/control/pm-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personally Identifiable Information Quality Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-22" .
+
+<http://example.org/nist80053/control/pm-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Data Governance Body" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-23" .
+
+<http://example.org/nist80053/control/pm-24> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Data Integrity Board" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-24" .
+
+<http://example.org/nist80053/control/pm-25> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Minimization of Personally Identifiable Information Used in Testing, Training, and Research" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-25" .
+
+<http://example.org/nist80053/control/pm-26> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Complaint Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-26" .
+
+<http://example.org/nist80053/control/pm-27> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Reporting" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-27" .
+
+<http://example.org/nist80053/control/pm-28> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Framing" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-28" .
+
+<http://example.org/nist80053/control/pm-29> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Management Program Leadership Roles" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-29" .
+
+<http://example.org/nist80053/control/pm-30> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Risk Management Strategy" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-30" .
+
+<http://example.org/nist80053/control/pm-31> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Continuous Monitoring Strategy" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-31" .
+
+<http://example.org/nist80053/control/pm-32> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Purposing" ;
+	<http://example.org/ontology/security-control#hasControlID> "pm-32" .
+
+<http://example.org/nist80053/control/ps-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-1" .
+
+<http://example.org/nist80053/control/ps-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Position Risk Designation" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-2" .
+
+<http://example.org/nist80053/control/ps-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personnel Screening" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-3" .
+
+<http://example.org/nist80053/control/ps-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personnel Termination" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-4" .
+
+<http://example.org/nist80053/control/ps-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personnel Transfer" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-5" .
+
+<http://example.org/nist80053/control/ps-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Agreements" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-6" .
+
+<http://example.org/nist80053/control/ps-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "External Personnel Security" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-7" .
+
+<http://example.org/nist80053/control/ps-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personnel Sanctions" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-8" .
+
+<http://example.org/nist80053/control/ps-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Position Descriptions" ;
+	<http://example.org/ontology/security-control#hasControlID> "ps-9" .
+
+<http://example.org/nist80053/control/pt-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-1" .
+
+<http://example.org/nist80053/control/pt-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Authority to Process Personally Identifiable Information" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-2" .
+
+<http://example.org/nist80053/control/pt-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personally Identifiable Information Processing Purposes" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-3" .
+
+<http://example.org/nist80053/control/pt-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Consent" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-4" .
+
+<http://example.org/nist80053/control/pt-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Notice" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-5" .
+
+<http://example.org/nist80053/control/pt-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System of Records Notice" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-6" .
+
+<http://example.org/nist80053/control/pt-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Specific Categories of Personally Identifiable Information" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-7" .
+
+<http://example.org/nist80053/control/pt-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Computer Matching Requirements" ;
+	<http://example.org/ontology/security-control#hasControlID> "pt-8" .
+
+<http://example.org/nist80053/control/ra-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-1" .
+
+<http://example.org/nist80053/control/ra-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security Categorization" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-2" .
+
+<http://example.org/nist80053/control/ra-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Assessment" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-3" .
+
+<http://example.org/nist80053/control/ra-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Assessment Update" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-4" .
+
+<http://example.org/nist80053/control/ra-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Vulnerability Monitoring and Scanning" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-5" .
+
+<http://example.org/nist80053/control/ra-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Technical Surveillance Countermeasures Survey" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-6" .
+
+<http://example.org/nist80053/control/ra-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Response" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-7" .
+
+<http://example.org/nist80053/control/ra-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Privacy Impact Assessments" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-8" .
+
+<http://example.org/nist80053/control/ra-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Criticality Analysis" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-9" .
+
+<http://example.org/nist80053/control/ra-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Threat Hunting" ;
+	<http://example.org/ontology/security-control#hasControlID> "ra-10" .
+
+<http://example.org/nist80053/control/sa-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-1" .
+
+<http://example.org/nist80053/control/sa-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Allocation of Resources" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-2" .
+
+<http://example.org/nist80053/control/sa-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Development Life Cycle" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-3" .
+
+<http://example.org/nist80053/control/sa-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Acquisition Process" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-4" .
+
+<http://example.org/nist80053/control/sa-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Documentation" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-5" .
+
+<http://example.org/nist80053/control/sa-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Software Usage Restrictions" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-6" .
+
+<http://example.org/nist80053/control/sa-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "User-installed Software" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-7" .
+
+<http://example.org/nist80053/control/sa-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Engineering Principles" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-8" .
+
+<http://example.org/nist80053/control/sa-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "External System Services" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-9" .
+
+<http://example.org/nist80053/control/sa-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Developer Configuration Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-10" .
+
+<http://example.org/nist80053/control/sa-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Developer Testing and Evaluation" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-11" .
+
+<http://example.org/nist80053/control/sa-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-12" .
+
+<http://example.org/nist80053/control/sa-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Trustworthiness" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-13" .
+
+<http://example.org/nist80053/control/sa-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Criticality Analysis" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-14" .
+
+<http://example.org/nist80053/control/sa-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Development Process, Standards, and Tools" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-15" .
+
+<http://example.org/nist80053/control/sa-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Developer-provided Training" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-16" .
+
+<http://example.org/nist80053/control/sa-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Developer Security and Privacy Architecture and Design" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-17" .
+
+<http://example.org/nist80053/control/sa-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Tamper Resistance and Detection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-18" .
+
+<http://example.org/nist80053/control/sa-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Component Authenticity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-19" .
+
+<http://example.org/nist80053/control/sa-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Customized Development of Critical Components" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-20" .
+
+<http://example.org/nist80053/control/sa-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Developer Screening" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-21" .
+
+<http://example.org/nist80053/control/sa-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Unsupported System Components" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-22" .
+
+<http://example.org/nist80053/control/sa-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Specialization" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-23" .
+
+<http://example.org/nist80053/control/sa-24> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Design For Cyber Resiliency" ;
+	<http://example.org/ontology/security-control#hasControlID> "sa-24" .
+
+<http://example.org/nist80053/control/sc-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-1" .
+
+<http://example.org/nist80053/control/sc-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Separation of System and User Functionality" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-2" .
+
+<http://example.org/nist80053/control/sc-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security Function Isolation" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-3" .
+
+<http://example.org/nist80053/control/sc-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information in Shared System Resources" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-4" .
+
+<http://example.org/nist80053/control/sc-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Denial-of-service Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-5" .
+
+<http://example.org/nist80053/control/sc-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Resource Availability" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-6" .
+
+<http://example.org/nist80053/control/sc-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Boundary Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-7" .
+
+<http://example.org/nist80053/control/sc-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Transmission Confidentiality and Integrity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-8" .
+
+<http://example.org/nist80053/control/sc-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Transmission Confidentiality" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-9" .
+
+<http://example.org/nist80053/control/sc-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Network Disconnect" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-10" .
+
+<http://example.org/nist80053/control/sc-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Trusted Path" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-11" .
+
+<http://example.org/nist80053/control/sc-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cryptographic Key Establishment and Management" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-12" .
+
+<http://example.org/nist80053/control/sc-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cryptographic Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-13" .
+
+<http://example.org/nist80053/control/sc-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Public Access Protections" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-14" .
+
+<http://example.org/nist80053/control/sc-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Collaborative Computing Devices and Applications" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-15" .
+
+<http://example.org/nist80053/control/sc-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Transmission of Security and Privacy Attributes" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-16" .
+
+<http://example.org/nist80053/control/sc-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Public Key Infrastructure Certificates" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-17" .
+
+<http://example.org/nist80053/control/sc-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Mobile Code" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-18" .
+
+<http://example.org/nist80053/control/sc-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Voice Over Internet Protocol" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-19" .
+
+<http://example.org/nist80053/control/sc-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Secure Name/Address Resolution Service (Authoritative Source)" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-20" .
+
+<http://example.org/nist80053/control/sc-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Secure Name/Address Resolution Service (Recursive or Caching Resolver)" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-21" .
+
+<http://example.org/nist80053/control/sc-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Architecture and Provisioning for Name/Address Resolution Service" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-22" .
+
+<http://example.org/nist80053/control/sc-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Session Authenticity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-23" .
+
+<http://example.org/nist80053/control/sc-24> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fail in Known State" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-24" .
+
+<http://example.org/nist80053/control/sc-25> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Thin Nodes" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-25" .
+
+<http://example.org/nist80053/control/sc-26> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Decoys" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-26" .
+
+<http://example.org/nist80053/control/sc-27> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Platform-independent Applications" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-27" .
+
+<http://example.org/nist80053/control/sc-28> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Protection of Information at Rest" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-28" .
+
+<http://example.org/nist80053/control/sc-29> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Heterogeneity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-29" .
+
+<http://example.org/nist80053/control/sc-30> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Concealment and Misdirection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-30" .
+
+<http://example.org/nist80053/control/sc-31> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Covert Channel Analysis" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-31" .
+
+<http://example.org/nist80053/control/sc-32> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Partitioning" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-32" .
+
+<http://example.org/nist80053/control/sc-33> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Transmission Preparation Integrity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-33" .
+
+<http://example.org/nist80053/control/sc-34> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Non-modifiable Executable Programs" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-34" .
+
+<http://example.org/nist80053/control/sc-35> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "External Malicious Code Identification" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-35" .
+
+<http://example.org/nist80053/control/sc-36> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Distributed Processing and Storage" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-36" .
+
+<http://example.org/nist80053/control/sc-37> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Out-of-band Channels" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-37" .
+
+<http://example.org/nist80053/control/sc-38> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Operations Security" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-38" .
+
+<http://example.org/nist80053/control/sc-39> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Process Isolation" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-39" .
+
+<http://example.org/nist80053/control/sc-40> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Wireless Link Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-40" .
+
+<http://example.org/nist80053/control/sc-41> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Port and I/O Device Access" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-41" .
+
+<http://example.org/nist80053/control/sc-42> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Sensor Capability and Data" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-42" .
+
+<http://example.org/nist80053/control/sc-43> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Usage Restrictions" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-43" .
+
+<http://example.org/nist80053/control/sc-44> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Detonation Chambers" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-44" .
+
+<http://example.org/nist80053/control/sc-45> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Time Synchronization" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-45" .
+
+<http://example.org/nist80053/control/sc-46> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cross Domain Policy Enforcement" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-46" .
+
+<http://example.org/nist80053/control/sc-47> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alternate Communications Paths" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-47" .
+
+<http://example.org/nist80053/control/sc-48> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Sensor Relocation" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-48" .
+
+<http://example.org/nist80053/control/sc-49> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Hardware-enforced Separation and Policy Enforcement" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-49" .
+
+<http://example.org/nist80053/control/sc-50> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Software-enforced Separation and Policy Enforcement" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-50" .
+
+<http://example.org/nist80053/control/sc-51> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Hardware-based Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sc-51" .
+
+<http://example.org/nist80053/control/si-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-1" .
+
+<http://example.org/nist80053/control/si-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Flaw Remediation" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-2" .
+
+<http://example.org/nist80053/control/si-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Malicious Code Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-3" .
+
+<http://example.org/nist80053/control/si-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System Monitoring" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-4" .
+
+<http://example.org/nist80053/control/si-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security Alerts, Advisories, and Directives" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-5" .
+
+<http://example.org/nist80053/control/si-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Security and Privacy Function Verification" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-6" .
+
+<http://example.org/nist80053/control/si-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Software, Firmware, and Information Integrity" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-7" .
+
+<http://example.org/nist80053/control/si-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Spam Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-8" .
+
+<http://example.org/nist80053/control/si-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Input Restrictions" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-9" .
+
+<http://example.org/nist80053/control/si-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Input Validation" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-10" .
+
+<http://example.org/nist80053/control/si-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Error Handling" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-11" .
+
+<http://example.org/nist80053/control/si-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Management and Retention" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-12" .
+
+<http://example.org/nist80053/control/si-13> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Predictable Failure Prevention" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-13" .
+
+<http://example.org/nist80053/control/si-14> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Non-persistence" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-14" .
+
+<http://example.org/nist80053/control/si-15> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Output Filtering" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-15" .
+
+<http://example.org/nist80053/control/si-16> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Memory Protection" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-16" .
+
+<http://example.org/nist80053/control/si-17> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fail-safe Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-17" .
+
+<http://example.org/nist80053/control/si-18> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personally Identifiable Information Quality Operations" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-18" .
+
+<http://example.org/nist80053/control/si-19> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "De-identification" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-19" .
+
+<http://example.org/nist80053/control/si-20> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Tainting" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-20" .
+
+<http://example.org/nist80053/control/si-21> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Refresh" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-21" .
+
+<http://example.org/nist80053/control/si-22> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Diversity" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-22" .
+
+<http://example.org/nist80053/control/si-23> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Information Fragmentation" ;
+	<http://example.org/ontology/security-control#hasControlID> "si-23" .
+
+<http://example.org/nist80053/control/sr-1> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Policy and Procedures" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-1" .
+
+<http://example.org/nist80053/control/sr-2> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Risk Management Plan" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-2" .
+
+<http://example.org/nist80053/control/sr-3> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Controls and Processes" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-3" .
+
+<http://example.org/nist80053/control/sr-4> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Provenance" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-4" .
+
+<http://example.org/nist80053/control/sr-5> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Acquisition Strategies, Tools, and Methods" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-5" .
+
+<http://example.org/nist80053/control/sr-6> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supplier Assessments and Reviews" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-6" .
+
+<http://example.org/nist80053/control/sr-7> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Operations Security" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-7" .
+
+<http://example.org/nist80053/control/sr-8> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Notification Agreements" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-8" .
+
+<http://example.org/nist80053/control/sr-9> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Tamper Resistance and Detection" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-9" .
+
+<http://example.org/nist80053/control/sr-10> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Inspection of Systems or Components" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-10" .
+
+<http://example.org/nist80053/control/sr-11> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Component Authenticity" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-11" .
+
+<http://example.org/nist80053/control/sr-12> a <http://example.org/ontology/security-control#SecurityControl> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Component Disposal" ;
+	<http://example.org/ontology/security-control#hasControlID> "sr-12" .
+
+<http://example.org/nist80053/group/ac> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Access Control" .
+
+<http://example.org/nist80053/group/at> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Awareness and Training" .
+
+<http://example.org/nist80053/group/au> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Audit and Accountability" .
+
+<http://example.org/nist80053/group/ca> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Assessment, Authorization, and Monitoring" .
+
+<http://example.org/nist80053/group/cm> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Configuration Management" .
+
+<http://example.org/nist80053/group/cp> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Contingency Planning" .
+
+<http://example.org/nist80053/group/ia> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Identification and Authentication" .
+
+<http://example.org/nist80053/group/ir> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Incident Response" .
+
+<http://example.org/nist80053/group/ma> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Maintenance" .
+
+<http://example.org/nist80053/group/mp> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Media Protection" .
+
+<http://example.org/nist80053/group/pe> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Physical and Environmental Protection" .
+
+<http://example.org/nist80053/group/pl> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Planning" .
+
+<http://example.org/nist80053/group/pm> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Program Management" .
+
+<http://example.org/nist80053/group/ps> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personnel Security" .
+
+<http://example.org/nist80053/group/pt> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Personally Identifiable Information Processing and Transparency" .
+
+<http://example.org/nist80053/group/ra> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Risk Assessment" .
+
+<http://example.org/nist80053/group/sa> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System and Services Acquisition" .
+
+<http://example.org/nist80053/group/sc> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System and Communications Protection" .
+
+<http://example.org/nist80053/group/si> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "System and Information Integrity" .
+
+<http://example.org/nist80053/group/sr> a <http://example.org/ontology/security-control#ControlGroup> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Supply Chain Risk Management" .

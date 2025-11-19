@@ -1,0 +1,5 @@
+@prefix sec: <http://example.org/ontology/security-control#> .
+@prefix maec: <http://example.org/ontology/malware-action#> .
+
+# Tautan yang menyatakan: Malware Action ma-001 dimitigasi oleh NIST Control ac-3
+<http://example.org/malware/action/ma-001> sec:isMitigatedBy <http://example.org/nist80053/control/ac-3> .
