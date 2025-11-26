@@ -1,0 +1,34 @@
+{
+  "malware_actions": [
+    {
+      "type": "malware-action",
+      "id": "action-001",
+      "name": "create-file",
+      "is_successful": true,
+      "description": "Malware creates a malicious executable file.",
+      "timestamp": "2025-11-01T10:00:00Z",
+      "input_object_refs": ["obj-file-1"],
+      "output_object_refs": ["obj-file-2"],
+      "api_call": {
+        "name": "CreateFileW",
+        "library": "kernel32.dll",
+        "arguments": ["C:\\Users\\Public\\malware.exe"]
+      }
+    },
+    {
+      "type": "malware-action",
+      "id": "action-002",
+      "name": "download-file",
+      "is_successful": true,
+      "description": "Downloads payload from remote server.",
+      "timestamp": "2025-11-01T10:02:00Z",
+      "input_object_refs": ["obj-url-1"],
+      "output_object_refs": ["obj-file-3"],
+      "api_call": {
+        "name": "URLDownloadToFileW",
+        "library": "urlmon.dll",
+        "arguments": ["http://malicious[.]site/payload.exe"]
+      }
+    }
+  ]
+}

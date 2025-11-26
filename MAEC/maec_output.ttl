@@ -1,0 +1,22 @@
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#actionId> "action-001" .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#actionName> "create-file" .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#description> "Malware creates a malicious executable file." .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#implementedByApiCall> <http://example.org/resource/maec/api-call/CreateFileW> .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#isSuccessful> "true" .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#producesOutputObject> <http://example.org/resource/maec/object/obj-file-2> .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#timestamp> "2025-11-01T10:00:00Z" .
+<http://example.org/resource/maec/action/action-001> <http://example.org/ontology/maec#usesInputObject> <http://example.org/resource/maec/object/obj-file-1> .
+<http://example.org/resource/maec/action/action-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/maec#MalwareAction> .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#actionId> "action-002" .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#actionName> "download-file" .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#description> "Downloads payload from remote server." .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#implementedByApiCall> <http://example.org/resource/maec/api-call/URLDownloadToFileW> .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#isSuccessful> "true" .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#producesOutputObject> <http://example.org/resource/maec/object/obj-file-3> .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#timestamp> "2025-11-01T10:02:00Z" .
+<http://example.org/resource/maec/action/action-002> <http://example.org/ontology/maec#usesInputObject> <http://example.org/resource/maec/object/obj-url-1> .
+<http://example.org/resource/maec/action/action-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/maec#MalwareAction> .
+<http://example.org/resource/maec/api-call/CreateFileW> <http://example.org/ontology/maec#description> "CreateFileW" .
+<http://example.org/resource/maec/api-call/CreateFileW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/maec#ApiCall> .
+<http://example.org/resource/maec/api-call/URLDownloadToFileW> <http://example.org/ontology/maec#description> "URLDownloadToFileW" .
+<http://example.org/resource/maec/api-call/URLDownloadToFileW> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/ontology/maec#ApiCall> .

@@ -1,0 +1,178 @@
+@prefix rr:   <http://www.w3.org/ns/r2rml#> .
+@prefix rml:  <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:   <http://semweb.mmlab.be/ns/ql#> .
+
+@prefix maec: <http://example.org/ontology/maec#> .
+@prefix ex:   <http://example.org/resource/maec/> .
+@prefix :     <http://example.org/mapping/maec#> .
+
+################################################################################
+# 1) MALWARE ACTION
+################################################################################
+
+:ActionMap a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/action/{id}" ;
+    rr:class maec:MalwareAction
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:actionId ;
+    rr:objectMap [ rml:reference "id" ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:actionName ;
+    rr:objectMap [ rml:reference "name" ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:isSuccessful ;
+    rr:objectMap [ rml:reference "is_successful" ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:description ;
+    rr:objectMap [ rml:reference "description" ]
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:timestamp ;
+    rr:objectMap [ rml:reference "timestamp" ]
+  ] .
+  
+
+
+################################################################################
+# 2) API CALL (SAFE)
+################################################################################
+
+:ApiCallMap a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*].api_call"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/api-call/{name}" ;
+    rr:class maec:ApiCall
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:description ;
+    rr:objectMap [ rml:reference "name" ]
+  ] .
+
+
+################################################################################
+# 3) LINK: Action → ApiCall (SAFE)
+################################################################################
+
+:ActionApiLink a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/action/{id}"
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:implementedByApiCall ;
+    rr:objectMap [
+      rr:template "http://example.org/resource/maec/api-call/{api_call.name}"
+    ]
+  ] .
+  
+
+
+################################################################################
+# 4) INPUT OBJECTS (NO { . } !!!)
+################################################################################
+
+:InputObjectMap a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*].input_object_refs[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/object/{value}" ;
+    rr:class maec:ObservableObject
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:description ;
+    rr:objectMap [ rml:reference "$" ]
+  ] .
+
+
+:ActionInputLink a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/action/{id}"
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:usesInputObject ;
+    rr:objectMap [
+      rr:template "http://example.org/resource/maec/object/{input_object_refs[0]}"
+    ]
+  ] .
+  
+
+
+################################################################################
+# 5) OUTPUT OBJECTS (SAFE)
+################################################################################
+
+:OutputObjectMap a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*].output_object_refs[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/object/{value}" ;
+    rr:class maec:ObservableObject
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:description ;
+    rr:objectMap [ rml:reference "$" ]
+  ] .
+
+
+:ActionOutputLink a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "maec_actions.json" ;
+    rml:referenceFormulation ql:JSONPath ;
+    rml:iterator "$.malware_actions[*]"
+  ] ;
+
+  rr:subjectMap [
+    rr:template "http://example.org/resource/maec/action/{id}"
+  ] ;
+
+  rr:predicateObjectMap [
+    rr:predicate maec:producesOutputObject ;
+    rr:objectMap [
+      rr:template "http://example.org/resource/maec/object/{output_object_refs[0]}"
+    ]
+  ] .

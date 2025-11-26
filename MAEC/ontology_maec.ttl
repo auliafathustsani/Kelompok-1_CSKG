@@ -1,0 +1,62 @@
+@prefix maec: <http://example.org/ontology/maec#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################################
+# Classes
+################################################################################
+
+maec:MalwareAction a rdfs:Class ;
+    rdfs:label "Malware Action" ;
+    rdfs:comment "Lowest-level dynamic operation executed by malware." .
+
+maec:ApiCall a rdfs:Class ;
+    rdfs:label "API Call" .
+
+maec:ObservableObject a rdfs:Class ;
+    rdfs:label "Observable Object" .
+
+################################################################################
+# Datatype Properties
+################################################################################
+
+maec:actionId a rdfs:DatatypeProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range xsd:string ;
+    rdfs:label "Action ID" .
+
+maec:actionName a rdfs:DatatypeProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range xsd:string ;
+    rdfs:label "Action Name" .
+
+maec:isSuccessful a rdfs:DatatypeProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range xsd:boolean .
+
+maec:description a rdfs:DatatypeProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range xsd:string .
+
+maec:timestamp a rdfs:DatatypeProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range xsd:dateTime .
+
+################################################################################
+# Object Properties
+################################################################################
+
+maec:usesInputObject a rdfs:ObjectProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range maec:ObservableObject ;
+    rdfs:label "Uses Input Object" .
+
+maec:producesOutputObject a rdfs:ObjectProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range maec:ObservableObject ;
+    rdfs:label "Produces Output Object" .
+
+maec:implementedByApiCall a rdfs:ObjectProperty ;
+    rdfs:domain maec:MalwareAction ;
+    rdfs:range maec:ApiCall ;
+    rdfs:label "Implemented By API Call" .
