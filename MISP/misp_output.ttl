@@ -1,0 +1,792 @@
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#feedURL> "https://osint.bambenekconsulting.com/feeds/dga-feed-high.csv" .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#name> "All current domains belonging to known malicious DGAs" .
+<https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> <https://w3id.org/sepses/ontology/misp#provider> "osint.bambenekconsulting.com" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://www.circl.lu/doc/misp/feed-osint" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#name> "CIRCL OSINT Feed" .
+<https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "CIRCL" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://api.cybercure.ai/feed/get_url?type=csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#name> "CyberCure - Blocked URL Feed" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "www.cybercure.ai" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://api.cybercure.ai/feed/get_hash?type=csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#name> "CyberCure - Hash Feed" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "www.cybercure.ai" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://api.cybercure.ai/feed/get_ips?type=csv" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#name> "CyberCure - IP Feed" .
+<https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "www.cybercure.ai" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/dnsversion.txt" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#name> "DNS CH TXT version.bind" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/dnsrd.txt" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#name> "DNS recursion desired" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/dnsrdany.txt" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#name> "DNS recursion desired IN ANY" .
+<https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#name> "DigitalSide Threat-Intel OSINT Feed" .
+<https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "osint.digitalside.it" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#feedURL> "https://osint.bambenekconsulting.com/feeds/c2-dommasterlist-high.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#name> "Domains from High-Confidence DGA-based C&C Domains Actively Resolving" .
+<https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> <https://w3id.org/sepses/ontology/misp#provider> "osint.bambenekconsulting.com" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cdn.ellio.tech/community-feed" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#name> "ELLIO: IP Feed (Community version)" .
+<https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> <https://w3id.org/sepses/ontology/misp#provider> "ellio.tech" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://feodotracker.abuse.ch/downloads/ipblocklist.csv" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Feodo IP Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/proto41.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#name> "IP protocol 41" .
+<https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#feedURL> "https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#name> "IPs from High-Confidence DGA-Based C&Cs Actively Resolving - requires a valid license" .
+<https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> <https://w3id.org/sepses/ontology/misp#provider> "osint.bambenekconsulting.com" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/1.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 1 - lot of false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/2.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 2 - medium false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 3 - low false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/4.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 4 - very low false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/5.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 5 - ultra false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/6.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 6 - no false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/7.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 7 - no false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/stamparm/ipsum/master/levels/8.txt" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#name> "IPsum (aggregation of all feeds) - level 8 - no false positives" .
+<https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> <https://w3id.org/sepses/ontology/misp#provider> "IPsum" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/infobloxopen/threat-intelligence/main/indicators/misp" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#name> "Infoblox-Threat-Intelligence" .
+<https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> <https://w3id.org/sepses/ontology/misp#provider> "infoblox.com" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedURL> "https://jamesbrine.com.au/csv" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#name> "James Brine Bruteforce IPs" .
+<https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#provider> "jamesbrine.com.au" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#feedURL> "https://hole.cert.pl/domains/domains.txt" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#name> "List of malicious domains in Poland" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> <https://w3id.org/sepses/ontology/misp#provider> "CERT-PL" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cti.bb.com.br:8443/hash-list.csv" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#name> "List of malicious hashes" .
+<https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> <https://w3id.org/sepses/ontology/misp#provider> "Banco do Brasil S.A" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#feedURL> "https://bazaar.abuse.ch/export/txt/md5/recent/" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#name> "Malware Bazaar" .
+<https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#feedURL> "https://bazaar.abuse.ch/downloads/misp/" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#name> "MalwareBazaar" .
+<https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#feedURL> "https://feeds.ecrimelabs.net/data/metasploit-cve" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#name> "Metasploit exploits with CVE assigned" .
+<https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> <https://w3id.org/sepses/ontology/misp#provider> "eCrimeLabs" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/openphish/public_feed/refs/heads/main/feed.txt" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#name> "OpenPhish url list" .
+<https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> <https://w3id.org/sepses/ontology/misp#provider> "openphish.com" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#feedURL> "https://benkow.cc/export.php" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#name> "Panels Tracker" .
+<https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> <https://w3id.org/sepses/ontology/misp#provider> "Benkow.cc" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#feedURL> "https://phishstats.info/phish_score.csv" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#name> "PhishScore" .
+<https://w3id.org/sepses/resource/misp/feed/PhishScore> <https://w3id.org/sepses/ontology/misp#provider> "PhishStats" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#feedURL> "https://phish.co.za/latest/phishing-IPs-NEW-today.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#name> "Phishing.Database - New IPs of today" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> <https://w3id.org/sepses/ontology/misp#provider> "Phishing.Database" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#feedURL> "https://phish.co.za/latest/phishing-links-NEW-today.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#name> "Phishing.Database - New URLs of today" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> <https://w3id.org/sepses/ontology/misp#provider> "Phishing.Database" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#feedURL> "https://phish.co.za/latest/phishing-domains-NEW-today.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#name> "Phishing.Database - New domains of today" .
+<https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> <https://w3id.org/sepses/ontology/misp#provider> "Phishing.Database" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#feedURL> "https://data.phishtank.com/data/online-valid.csv" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#name> "Phishtank online valid phishing" .
+<https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> <https://w3id.org/sepses/ontology/misp#provider> "Phishtank" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#feedURL> "https://rosti.64617461.xyz/downloads/misp/" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#name> "Rösti - Repackaged Öpen Source Threat Intelligence" .
+<https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> <https://w3id.org/sepses/ontology/misp#provider> "bin.re" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/smtpdata.txt" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#name> "SMTP data" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20data> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/smtpgreet.txt" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#name> "SMTP greet" .
+<https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedURL> "https://feeds.honeynet.asia/bruteforce/latest-sshbruteforce-unique.csv" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#name> "SSH Bruteforce IPs" .
+<https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#provider> "APNIC Community Honeynet Project" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#feedURL> "https://shreshtait.com/newly-registered-domains/nrd-1m" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#name> "Shreshta: Newly Registered domain names (NRD) - 1 month (Community policy feed)" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#provider> "shreshtait.com" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#feedURL> "https://shreshtait.com/newly-registered-domains/nrd-1w" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#name> "Shreshta: Newly Registered domain names(NRD) - 1 week (Community policy feed)" .
+<https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> <https://w3id.org/sepses/ontology/misp#provider> "shreshtait.com" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/telnetlogin.txt" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#name> "TELNET login" .
+<https://w3id.org/sepses/resource/misp/feed/TELNET%20login> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#feedURL> "https://feeds.honeynet.asia/bruteforce/latest-telnetbruteforce-unique.csv" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#name> "Telnet Bruteforce IPs" .
+<https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> <https://w3id.org/sepses/ontology/misp#provider> "APNIC Community Honeynet Project" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#feedURL> "https://www.botvrij.eu/data/feed-osint" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#name> "The Botvrij.eu Data" .
+<https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> <https://w3id.org/sepses/ontology/misp#provider> "Botvrij.eu" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#feedURL> "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt?inline=false" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#name> "This list contains all browser mining domains - A list to prevent browser mining only" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> <https://w3id.org/sepses/ontology/misp#provider> "ZeroDot1 - CoinBlockerLists" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#feedURL> "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list.txt?inline=false" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#name> "This list contains all domains - A list for administrators to prevent mining in networks" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> <https://w3id.org/sepses/ontology/misp#provider> "ZeroDot1 - CoinBlockerLists" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#feedURL> "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_optional.txt?inline=false" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#name> "This list contains all optional domains - An additional list for administrators" .
+<https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> <https://w3id.org/sepses/ontology/misp#provider> "ZeroDot1 - CoinBlockerLists" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatfox.abuse.ch/downloads/misp/" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#name> "Threatfox" .
+<https://w3id.org/sepses/resource/misp/feed/Threatfox> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/MALICIOUS-BITCOIN_FEED.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - Bitcoin Address Intel" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/High-Confidence-CobaltStrike-C2%20-Feeds.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - C2 Hunt Feed" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/DOMAIN-High-Confidence-Feed.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - Domain Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/IP-High-Confidence-Feed.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - IP Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/MD5-HASH-ALL.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - MD5 Hash Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/Experimental-IOC-Tweets.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - OSINT Threat Feed" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/SHA-HASH-FEED.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - SHA File Hash Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatview.io/Downloads/URL-High-Confidence-Feed.txt" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#name> "Threatview.io - URL Blocklist" .
+<https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> <https://w3id.org/sepses/ontology/misp#provider> "threatview.io" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#feedURL> "https://www.dan.me.uk/torlist/" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#name> "Tor ALL nodes" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> <https://w3id.org/sepses/ontology/misp#provider> "TOR Node List from dan.me.uk - careful, this feed applies a lock-out after each pull. This is shared with the \"Tor exit nodes\" feed." .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#feedURL> "https://www.dan.me.uk/torlist/?exit" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#name> "Tor exit nodes" .
+<https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> <https://w3id.org/sepses/ontology/misp#provider> "TOR Node List from dan.me.uk - careful, this feed applies a lock-out after each pull. This is shared with the \"Tor ALL nodes\" feed." .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#feedURL> "https://feeds.honeynet.asia/url/latest-url-unique.csv" .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#name> "URL Seen in honeypots" .
+<https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> <https://w3id.org/sepses/ontology/misp#provider> "APNIC Community Honeynet Project" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#feedURL> "https://urlhaus.abuse.ch/downloads/csv_recent/" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#name> "URLHaus Malware URLs" .
+<https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#feedFormat> "misp" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#feedURL> "https://urlhaus.abuse.ch/downloads/misp/" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#name> "URLhaus" .
+<https://w3id.org/sepses/resource/misp/feed/URLhaus> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/vncrfb.txt" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#name> "VNC RFB" .
+<https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#feedURL> "http://vxvault.net/URL_List.php" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#name> "VXvault - URL List" .
+<https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> <https://w3id.org/sepses/ontology/misp#provider> "VXvault" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#feedURL> "https://sslbl.abuse.ch/blacklist/sslblacklist.csv" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#name> "abuse.ch SSL IPBL" .
+<https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#feedURL> "https://reputation.alienvault.com/reputation.generic" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#name> "alienvault reputation generic" .
+<https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> <https://w3id.org/sepses/ontology/misp#provider> ".alienvault.com" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#feedURL> "https://lists.blocklist.de/lists/all.txt" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#name> "blocklist.de/lists/all.txt" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> <https://w3id.org/sepses/ontology/misp#provider> "blocklist.de" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#feedURL> "https://blocklist.greensnow.co/greensnow.txt" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#name> "blocklist.greensnow.co" .
+<https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> <https://w3id.org/sepses/ontology/misp#provider> "greensnow.co" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#feedURL> "https://rules.emergingthreats.net/blockrules/compromised-ips.txt" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#name> "blockrules of rules.emergingthreats.net" .
+<https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> <https://w3id.org/sepses/ontology/misp#provider> "rules.emergingthreats.net" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cinsscore.com/list/ci-badguys.txt" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#name> "ci-badguys.txt" .
+<https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> <https://w3id.org/sepses/ontology/misp#provider> "cinsscore.com" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cybercrime-tracker.net/all.php" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#name> "cybercrime-tracker.net - all" .
+<https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> <https://w3id.org/sepses/ontology/misp#provider> "cybercrime-tracker.net" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/pan-unit42/iocs/master/diamondfox/diamondfox_panels.txt" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#name> "diamondfox_panels" .
+<https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> <https://w3id.org/sepses/ontology/misp#provider> "pan-unit42" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#feedURL> "https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#name> "firehol_level1" .
+<https://w3id.org/sepses/resource/misp/feed/firehol_level1> <https://w3id.org/sepses/ontology/misp#provider> "iplists.firehol.org" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cybercrime-tracker.net/ccamgate.php" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#name> "http://cybercrime-tracker.net gatelist" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> <https://w3id.org/sepses/ontology/misp#provider> "http://cybercrime-tracker.net gatelist" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#feedURL> "https://cybercrime-tracker.net/ccamlist.php" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#name> "http://cybercrime-tracker.net hashlist" .
+<https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> <https://w3id.org/sepses/ontology/misp#provider> "http://cybercrime-tracker.net hashlist" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#feedURL> "https://snort.org/downloads/ip-block-list" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#name> "ip-block-list - snort.org" .
+<https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> <https://w3id.org/sepses/ontology/misp#provider> "https://snort.org" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#feedURL> "http://www.ipspamlist.com/public_feeds.csv" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#name> "ipspamlist" .
+<https://w3id.org/sepses/resource/misp/feed/ipspamlist> <https://w3id.org/sepses/ontology/misp#provider> "ipspamlist" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#feedFormat> "freetext" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#feedURL> "https://malshare.com/daily/malshare.current.all.txt" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#name> "malshare.com - current all" .
+<https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> <https://w3id.org/sepses/ontology/misp#provider> "malshare.com" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#feedURL> "https://malsilo.gitlab.io/feeds/dumps/domain_list.txt" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#name> "malsilo.domain" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.domain> <https://w3id.org/sepses/ontology/misp#provider> "MalSilo" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#feedURL> "https://malsilo.gitlab.io/feeds/dumps/ip_list.txt" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#name> "malsilo.ipv4" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> <https://w3id.org/sepses/ontology/misp#provider> "MalSilo" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#feedURL> "https://malsilo.gitlab.io/feeds/dumps/url_list.txt" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#name> "malsilo.url" .
+<https://w3id.org/sepses/resource/misp/feed/malsilo.url> <https://w3id.org/sepses/ontology/misp#provider> "MalSilo" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#feedURL> "https://home.nuug.no/~peter/pop3gropers.txt" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#name> "pop3gropers" .
+<https://w3id.org/sepses/resource/misp/feed/pop3gropers> <https://w3id.org/sepses/ontology/misp#provider> "home.nuug.no" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/sipinvitation.txt" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#name> "sipinvitation" .
+<https://w3id.org/sepses/resource/misp/feed/sipinvitation> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/sipquery.txt" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#name> "sipquery" .
+<https://w3id.org/sepses/resource/misp/feed/sipquery> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/sipregistration.txt" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#name> "sipregistration" .
+<https://w3id.org/sepses/resource/misp/feed/sipregistration> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#distribution> "3" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#feedURL> "https://dataplane.org/sshpwauth.txt" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#isEnabled> "true" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#name> "sshpwauth.txt" .
+<https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> <https://w3id.org/sepses/ontology/misp#provider> "dataplane.org" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Feed> .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#distribution> "0" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#feedFormat> "csv" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#feedURL> "https://threatfox.abuse.ch/export/csv/recent/" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#isEnabled> "false" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#name> "threatfox indicators of compromise" .
+<https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> <https://w3id.org/sepses/ontology/misp#provider> "abuse.ch" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Tag> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#colour> "#005b9d" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#exportable> "true" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/PhishScore> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SMTP%20data> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/TELNET%20login> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatfox> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URLhaus> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/firehol_level1> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ipspamlist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.domain> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.url> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/pop3gropers> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipinvitation> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipquery> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipregistration> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22automatic-collection%22> <https://w3id.org/sepses/ontology/misp#name> "osint:source-type=\"automatic-collection\"" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/misp#Tag> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#colour> "#004577" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#colour> "#004f89" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#exportable> "true" .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/All%20current%20domains%20belonging%20to%20known%20malicious%20DGAs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CIRCL%20OSINT%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Blocked%20URL%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20Hash%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/CyberCure%20-%20IP%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20CH%20TXT%20version.bind> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DNS%20recursion%20desired%20IN%20ANY> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/DigitalSide%20Threat-Intel%20OSINT%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Domains%20from%20High-Confidence%20DGA-based%20C%26C%20Domains%20Actively%20Resolving> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ELLIO%3A%20IP%20Feed%20%28Community%20version%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Feodo%20IP%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IP%20protocol%2041> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPs%20from%20High-Confidence%20DGA-Based%20C%26Cs%20Actively%20Resolving%20-%20requires%20a%20valid%20license> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%201%20-%20lot%20of%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%202%20-%20medium%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%203%20-%20low%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%204%20-%20very%20low%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%205%20-%20ultra%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%206%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%207%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/IPsum%20%28aggregation%20of%20all%20feeds%29%20-%20level%208%20-%20no%20false%20positives> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Infoblox-Threat-Intelligence> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/James%20Brine%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20domains%20in%20Poland> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/List%20of%20malicious%20hashes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Malware%20Bazaar> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/MalwareBazaar> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Metasploit%20exploits%20with%20CVE%20assigned> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/OpenPhish%20url%20list> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Panels%20Tracker> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/PhishScore> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20IPs%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20URLs%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishing.Database%20-%20New%20domains%20of%20today> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Phishtank%20online%20valid%20phishing> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/R%C3%B6sti%20-%20Repackaged%20%C3%96pen%20Source%20Threat%20Intelligence> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SMTP%20data> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SMTP%20greet> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/SSH%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%20%28NRD%29%20-%201%20month%20%28Community%20policy%20feed%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Shreshta%3A%20Newly%20Registered%20domain%20names%28NRD%29%20-%201%20week%20%28Community%20policy%20feed%29> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/TELNET%20login> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Telnet%20Bruteforce%20IPs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/The%20Botvrij.eu%20Data> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20browser%20mining%20domains%20-%20A%20list%20to%20prevent%20browser%20mining%20only> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20domains%20-%20A%20list%20for%20administrators%20to%20prevent%20mining%20in%20networks> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/This%20list%20contains%20all%20optional%20domains%20-%20An%20additional%20list%20for%20administrators> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatfox> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Bitcoin%20Address%20Intel> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20C2%20Hunt%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20Domain%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20IP%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20MD5%20Hash%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20OSINT%20Threat%20Feed> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20SHA%20File%20Hash%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Threatview.io%20-%20URL%20Blocklist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Tor%20ALL%20nodes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/Tor%20exit%20nodes> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URL%20Seen%20in%20honeypots> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URLHaus%20Malware%20URLs> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/URLhaus> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/VNC%20RFB> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/VXvault%20-%20URL%20List> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/abuse.ch%20SSL%20IPBL> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/alienvault%20reputation%20generic> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blocklist.de%2Flists%2Fall.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blocklist.greensnow.co> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/blockrules%20of%20rules.emergingthreats.net> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ci-badguys.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/cybercrime-tracker.net%20-%20all> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/diamondfox_panels> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/firehol_level1> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20gatelist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/http%3A%2F%2Fcybercrime-tracker.net%20hashlist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ip-block-list%20-%20snort.org> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/ipspamlist> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malshare.com%20-%20current%20all> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.domain> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.ipv4> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/malsilo.url> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/pop3gropers> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipinvitation> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipquery> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sipregistration> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/sshpwauth.txt> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#hasTag> <https://w3id.org/sepses/resource/misp/feed/threatfox%20indicators%20of%20compromise> .
+<https://w3id.org/sepses/resource/misp/tag/osint%3Asource-type%3D%22block-or-filter-list%22> <https://w3id.org/sepses/ontology/misp#name> "osint:source-type=\"block-or-filter-list\"" .

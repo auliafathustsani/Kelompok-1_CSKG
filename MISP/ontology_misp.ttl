@@ -1,0 +1,218 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+@prefix misp: <https://w3id.org/sepses/ontology/misp#> .
+
+###############################################################################
+# ONTOLOGY HEADER
+###############################################################################
+
+misp: a owl:Ontology ;
+    dct:title "Enhanced MISP Threat Intelligence Ontology" ;
+    dct:description "A richer ontology for MISP, including Events, Attributes, Objects, Tags, Feeds, Galaxies, Sightings, Correlations, and Proposals." ;
+    dct:creator "Kesya Izumi" ;
+    dct:source "MISP Core Model + defaults.json" .
+
+
+###############################################################################
+# CORE CONCEPTS (MISP MAIN STRUCTURE)
+###############################################################################
+
+# Base class
+misp:Entity a owl:Class ;
+    rdfs:label "Entity" .
+
+# Main components
+misp:Event a owl:Class ;
+    rdfs:subClassOf misp:Entity ;
+    rdfs:label "Event" ;
+    rdfs:comment "Represents a threat intelligence event in MISP." .
+
+misp:Attribute a owl:Class ;
+    rdfs:subClassOf misp:Entity ;
+    rdfs:label "Attribute" ;
+    rdfs:comment "Atomic data item within an Event." .
+
+misp:Object a owl:Class ;
+    rdfs:subClassOf misp:Entity ;
+    rdfs:label "Object" ;
+    rdfs:comment "Structured group of attributes." .
+
+misp:Tag a owl:Class ;
+    rdfs:subClassOf misp:Entity ;
+    rdfs:label "Tag" ;
+    rdfs:comment "User-defined label for events, attributes, or feeds." .
+
+misp:Feed a owl:Class ;
+    rdfs:subClassOf misp:Entity ;
+    rdfs:label "Feed" ;
+    rdfs:comment "External feed for ingesting threat intelligence." .
+
+misp:Organisation a owl:Class ;
+    rdfs:label "Organisation" ;
+    rdfs:comment "Organisation providing events or feed content." .
+
+###############################################################################
+# RICH EXTENSIONS (FOR ADVANCED USE CASES)
+###############################################################################
+
+# Galaxy / Threat Model
+misp:Galaxy a owl:Class ;
+    rdfs:label "Galaxy" ;
+    rdfs:comment "High-level taxonomy (malware, threat-actor, tool, campaign)." .
+
+misp:GalaxyCluster a owl:Class ;
+    rdfs:label "Galaxy Cluster" ;
+    rdfs:comment "Specific entity within a galaxy (e.g., Emotet, Lazarus)." .
+
+# Sighting
+misp:Sighting a owl:Class ;
+    rdfs:label "Sighting" ;
+    rdfs:comment "Information that an attribute has been seen." .
+
+# Shadow Attributes (Proposals)
+misp:Proposal a owl:Class ;
+    rdfs:label "Proposal (Shadow Attribute)" ;
+    rdfs:comment "Suggested attribute waiting for approval." .
+
+# Correlation
+misp:Correlation a owl:Class ;
+    rdfs:label "Correlation" ;
+    rdfs:comment "Links two attributes/events that are related." .
+
+# Warning List
+misp:WarningList a owl:Class ;
+    rdfs:label "Warning List" ;
+    rdfs:comment "List of suspicious or false-positive values." .
+
+# Taxonomy
+misp:Taxonomy a owl:Class ;
+    rdfs:label "Taxonomy" ;
+    rdfs:comment "Structured classification system (e.g., tlp, misp-galaxy)." .
+
+###############################################################################
+# OBJECT PROPERTIES
+###############################################################################
+
+misp:hasAttribute a owl:ObjectProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Attribute ;
+    rdfs:label "has attribute" ;
+    rdfs:comment "Event → Attributes." .
+
+misp:hasObject a owl:ObjectProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Object ;
+    rdfs:label "has object" .
+
+misp:hasTag a owl:ObjectProperty ;
+    rdfs:domain misp:Entity ;
+    rdfs:range misp:Tag ;
+    rdfs:label "has tag" .
+
+misp:hasFeed a owl:ObjectProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Feed ;
+    rdfs:label "has feed" .
+
+misp:belongsToOrganisation a owl:ObjectProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Organisation ;
+    rdfs:label "belongs to organisation" .
+
+misp:belongsToGalaxy a owl:ObjectProperty ;
+    rdfs:domain misp:GalaxyCluster ;
+    rdfs:range misp:Galaxy ;
+    rdfs:label "belongs to galaxy" .
+
+misp:hasSighting a owl:ObjectProperty ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range misp:Sighting ;
+    rdfs:label "has sighting" .
+
+misp:correlatesWith a owl:ObjectProperty ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range misp:Attribute ;
+    rdfs:label "correlates with" .
+
+misp:hasProposal a owl:ObjectProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Proposal ;
+    rdfs:label "has proposal" .
+
+misp:hasCluster a owl:ObjectProperty ;
+    rdfs:domain misp:Galaxy ;
+    rdfs:range misp:GalaxyCluster ;
+    rdfs:label "has cluster" .
+
+###############################################################################
+# DATATYPE PROPERTIES
+###############################################################################
+
+misp:id a owl:DatatypeProperty ;
+    rdfs:domain misp:Entity ;
+    rdfs:range xsd:string ;
+    rdfs:label "ID" .
+
+misp:uuid a owl:DatatypeProperty ;
+    rdfs:domain misp:Entity ;
+    rdfs:range xsd:string ;
+    rdfs:label "UUID" .
+
+misp:type a owl:DatatypeProperty ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:string ;
+    rdfs:label "Type" .
+
+misp:value a owl:DatatypeProperty ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:string ;
+    rdfs:label "Value" .
+
+misp:category a owl:DatatypeProperty ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:string ;
+    rdfs:label "Category" .
+
+misp:timestamp a owl:DatatypeProperty ;
+    rdfs:domain misp:Event ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "Timestamp" .
+
+misp:name a owl:DatatypeProperty ;
+    rdfs:domain misp:Feed, misp:Tag ;
+    rdfs:range xsd:string ;
+    rdfs:label "Name" .
+
+misp:feedURL a owl:DatatypeProperty ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "Feed URL" .
+
+misp:feedFormat a owl:DatatypeProperty ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:string ;
+    rdfs:label "Feed Format" .
+
+misp:provider a owl:DatatypeProperty ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:string ;
+    rdfs:label "Provider" .
+
+misp:comment a owl:DatatypeProperty ;
+    rdfs:domain misp:Entity ;
+    rdfs:range xsd:string ;
+    rdfs:label "Comment" .
+
+misp:colour a owl:DatatypeProperty ;
+    rdfs:domain misp:Tag ;
+    rdfs:range xsd:string ;
+    rdfs:label "Colour" .
+
+misp:exportable a owl:DatatypeProperty ;
+    rdfs:domain misp:Tag ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "Exportable" .
