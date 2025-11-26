@@ -1,0 +1,109 @@
+@prefix : <http://example.org/nist-privacy#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Classes
+:Resource a owl:Class .
+:Profile a owl:Class .
+:BaselineProfile a owl:Class ;
+    rdfs:subClassOf :Profile .
+:Metadata a owl:Class .
+:Role a owl:Class .
+:Party a owl:Class .
+:ResponsibleParty a owl:Class .
+:Control a owl:Class .
+:Email a owl:Class .
+:AddressLine a owl:Class .
+:ResourceLink a owl:Class .
+
+# Object Properties
+:hasMetadata a owl:ObjectProperty ;
+    rdfs:domain :Profile ;
+    rdfs:range :Metadata .
+
+:responsibleRole a owl:ObjectProperty ;
+    rdfs:domain :ResponsibleParty ;
+    rdfs:range :Role .
+
+:belongsToParty a owl:ObjectProperty ;
+    rdfs:domain :Email ;
+    rdfs:range :Party .
+
+:isPartOfBaseline a owl:ObjectProperty ;
+    rdfs:domain :Control ;
+    rdfs:range :BaselineProfile .
+
+:href a owl:ObjectProperty ;
+    rdfs:domain :ResourceLink ;
+    rdfs:range xsd:anyURI .
+
+# Data Properties
+:resourceUuid a owl:DatatypeProperty ;
+    rdfs:domain :Resource ;
+    rdfs:range xsd:string .
+
+:resourceDescription a owl:DatatypeProperty ;
+    rdfs:domain :Resource ;
+    rdfs:range xsd:string .
+
+:profileUuid a owl:DatatypeProperty ;
+    rdfs:domain :Profile ;
+    rdfs:range xsd:string .
+
+:baselineId a owl:DatatypeProperty ;
+    rdfs:domain :BaselineProfile ;
+    rdfs:range xsd:string .
+
+:version a owl:DatatypeProperty ;
+    rdfs:domain :Metadata ;
+    rdfs:range xsd:string .
+
+:oscalVersion a owl:DatatypeProperty ;
+    rdfs:domain :Metadata ;
+    rdfs:range xsd:string .
+
+:lastModified a owl:DatatypeProperty ;
+    rdfs:domain :Metadata ;
+    rdfs:range xsd:dateTime .
+
+:title a owl:DatatypeProperty ;
+    rdfs:domain :Metadata ;
+    rdfs:range xsd:string .
+
+:roleId a owl:DatatypeProperty ;
+    rdfs:domain :Role ;
+    rdfs:range xsd:string .
+
+:roleTitle a owl:DatatypeProperty ;
+    rdfs:domain :Role ;
+    rdfs:range xsd:string .
+
+:partyName a owl:DatatypeProperty ;
+    rdfs:domain :Party ;
+    rdfs:range xsd:string .
+
+:partyType a owl:DatatypeProperty ;
+    rdfs:domain :Party ;
+    rdfs:range xsd:string .
+
+:partyUuid a owl:DatatypeProperty ;
+    rdfs:domain :Party ;
+    rdfs:range xsd:string .
+
+:partyShortName a owl:DatatypeProperty ;
+    rdfs:domain :Party ;
+    rdfs:range xsd:string .
+
+:controlId a owl:DatatypeProperty ;
+    rdfs:domain :Control ;
+    rdfs:range xsd:string .
+
+:emailValue a owl:DatatypeProperty ;
+    rdfs:domain :Email ;
+    rdfs:range xsd:string .
+
+:lineValue a owl:DatatypeProperty ;
+    rdfs:domain :AddressLine ;
+    rdfs:range xsd:string .

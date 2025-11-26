@@ -1,0 +1,393 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr:  <http://www.w3.org/ns/r2rml#> .
+@prefix ql:  <http://semweb.mmlab.be/ns/ql#> .
+
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix nistp: <http://example.org/nist-privacy#> .
+
+#################################################################
+# 1. PROFILE (Baseline Profile)
+#################################################################
+
+<#ProfileMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/profile/privacy-baseline" ;
+        rr:class nistp:Profile , nistp:BaselineProfile
+    ] ;
+
+    # UUID profile
+    rr:predicateObjectMap [
+        rr:predicate nistp:profileUuid ;
+        rr:objectMap [ rml:reference "uuid" ]
+    ] ;
+
+    # baselineId fix (nilai konstan)
+    rr:predicateObjectMap [
+        rr:predicate nistp:baselineId ;
+        rr:objectMap [ rr:constant "PRIVACY_BASELINE" ]
+    ] ;
+
+    # link ke metadata (IRI tetap)
+    rr:predicateObjectMap [
+        rr:predicate nistp:hasMetadata ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/profile/privacy-baseline/metadata"
+        ]
+    ] .
+
+#################################################################
+# 2. METADATA (title, last-modified, version, oscal-version)
+#################################################################
+
+<#MetadataMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile.metadata"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/profile/privacy-baseline/metadata" ;
+        rr:class nistp:Metadata
+    ] ;
+
+    # title
+    rr:predicateObjectMap [
+        rr:predicate nistp:title ;
+        rr:objectMap [ rml:reference "title" ]
+    ] ;
+
+    # last-modified  (ada tanda minus → HARUS pakai ['...'])
+    rr:predicateObjectMap [
+        rr:predicate nistp:lastModified ;
+        rr:objectMap [
+            rml:reference "['last-modified']" ;
+            rr:datatype xsd:dateTime
+        ]
+    ] ;
+
+    # version
+    rr:predicateObjectMap [
+        rr:predicate nistp:version ;
+        rr:objectMap [ rml:reference "version" ]
+    ] ;
+
+    # oscal-version (juga pakai ['...'])
+    rr:predicateObjectMap [
+        rr:predicate nistp:oscalVersion ;
+        rr:objectMap [ rml:reference "['oscal-version']" ]
+    ] .
+
+#################################################################
+# 3. CONTROLS (imports[0].include-controls.with-ids[*])
+#################################################################
+
+<#ControlMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+
+        # field dengan tanda minus wajib di-quote
+        # sebelumnya: $.profile.imports[0].include-controls.with-ids[*]
+        rml:iterator "$.profile.imports[0]['include-controls']['with-ids'][*]"
+    ] ;
+
+    # setiap elemen array (mis "ac-1", "pt-2") jadi node Control (blank node)
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:class nistp:Control
+    ] ;
+
+    # ambil nilai string elemen array sebagai controlId
+    # "$" di sini berarti "nilai elemen saat ini"
+    rr:predicateObjectMap [
+        rr:predicate nistp:controlId ;
+        rr:objectMap [ rml:reference "$" ]
+    ] ;
+
+    # link control ke baseline
+    rr:predicateObjectMap [
+        rr:predicate nistp:isPartOfBaseline ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/profile/privacy-baseline"
+        ]
+    ] .
+
+#################################################################
+# 4. ROLES (profile.metadata.roles[*])
+#################################################################
+
+<#RoleMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile.metadata.roles[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/role/{id}" ;
+        rr:class nistp:Role
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:roleId ;
+        rr:objectMap [ rml:reference "id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:roleTitle ;
+        rr:objectMap [ rml:reference "title" ]
+    ] .
+
+#################################################################
+# 5. PARTIES (profile.metadata.parties[*])
+#################################################################
+
+<#PartyMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile.metadata.parties[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/party/{uuid}" ;
+        rr:class nistp:Party
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:partyUuid ;
+        rr:objectMap [ rml:reference "uuid" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:partyType ;
+        rr:objectMap [ rml:reference "type" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:partyName ;
+        rr:objectMap [ rml:reference "name" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:partyShortName ;
+        rr:objectMap [ rml:reference "short-name" ]
+    ] .
+
+#################################################################
+# 6. PARTY EMAILS (nested array)
+#################################################################
+
+<#PartyEmailMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+
+        # naikkan path ke parent supaya uuid ikut kebaca
+        rml:iterator "$.profile.metadata.parties[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:class nistp:Email
+    ] ;
+
+    # email-addresses[*]
+    rr:predicateObjectMap [
+        rr:predicate nistp:emailValue ;
+        rr:objectMap [
+            rml:reference "['email-addresses'][*]"
+        ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:belongsToParty ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/party/{uuid}"
+        ]
+    ] .
+
+#################################################################
+# 7. PARTY ADDRESSES (addresses array) — FIXED
+#################################################################
+
+<#AddressMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile.metadata.parties[*].addresses[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/address/{../uuid}-{['postal-code']}" ;
+        rr:class nistp:Address
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:city ;
+        rr:objectMap [ rml:reference "city" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:state ;
+        rr:objectMap [ rml:reference "state" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:postalCode ;
+        rr:objectMap [ rml:reference "['postal-code']" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:belongsToParty ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/party/{../uuid}"
+        ]
+    ] .
+
+#################################################################
+# 8. ADDRESS LINES — FIXED
+#################################################################
+
+<#AddressLineMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+
+        # iterate langsung setiap line (string)
+        rml:iterator "$.profile.metadata.parties[*].addresses[*]['addr-lines'][*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:class nistp:AddressLine
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:lineValue ;
+        rr:objectMap [ rml:reference "$" ]
+    ] ;
+
+    # bind ke parent Address IRI
+    rr:predicateObjectMap [
+        rr:predicate nistp:belongsToAddress ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/address/{../../uuid}-{../../['postal-code']}"
+        ]
+    ] .
+
+#################################################################
+# 9. RESPONSIBLE PARTIES (profile.metadata.responsible-parties[*])
+#################################################################
+
+<#ResponsiblePartyMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile.metadata['responsible-parties'][*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/responsible-party/{role-id}" ;
+        rr:class nistp:ResponsibleParty
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:responsibleRole ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/role/{role-id}"
+        ]
+    ] .
+
+#################################################################
+# 9B. RESPONSIBLE PARTY → PARTY UUID LINK — FIXED
+#################################################################
+
+<#ResponsiblePartyPartyUUIDMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        # iterate per uuid
+        rml:iterator "$.profile.metadata['responsible-parties'][*]['party-uuids'][*]"
+    ] ;
+
+    rr:subjectMap [
+        # parent node
+        rr:template "http://example.org/nist-privacy/responsible-party/{../role-id}"
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:responsibleParty ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/party/{.}"
+        ]
+    ] .
+
+#################################################################
+# 10. RESOURCES (profile.back-matter.resources[*])
+#################################################################
+
+<#ResourceMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.profile['back-matter'].resources[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "http://example.org/nist-privacy/resource/{uuid}" ;
+        rr:class nistp:Resource
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:resourceUuid ;
+        rr:objectMap [ rml:reference "uuid" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:resourceDescription ;
+        rr:objectMap [ rml:reference "description" ]
+    ] .
+
+#################################################################
+# 11. RESOURCE LINKS — FIXED
+#################################################################
+
+<#ResourceLinkMapping>
+    rml:logicalSource [
+        rml:source "privacy_profile_fixed.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+
+        # iterate per rlink
+        rml:iterator "$.profile['back-matter'].resources[*].rlinks[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:termType rr:BlankNode ;
+        rr:class nistp:ResourceLink
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:href ;
+        rr:objectMap [ rml:reference "href" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate nistp:mediaType ;
+        rr:objectMap [ rml:reference "['media-type']" ]
+    ] ;
+
+    # FIX: bind to parent resource uuid
+    rr:predicateObjectMap [
+        rr:predicate nistp:belongsToResource ;
+        rr:objectMap [
+            rr:template "http://example.org/nist-privacy/resource/{../uuid}"
+        ]
+    ] .
