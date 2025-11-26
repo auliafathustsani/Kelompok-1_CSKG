@@ -1,0 +1,79 @@
+@prefix misp: <http://example.org/ontology/misp#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+misp:Feed a rdfs:Class ;
+    rdfs:label "MISP Feed" ;
+    rdfs:comment "Represents a feed configuration or source." .
+
+misp:Tag a rdfs:Class ;
+    rdfs:label "MISP Tag" .
+
+misp:Event a rdfs:Class ;
+    rdfs:label "MISP Event" ;
+    rdfs:comment "A MISP event (incident) containing attributes/IOCs." .
+
+misp:Attribute a rdfs:Class ;
+    rdfs:label "MISP Attribute" ;
+    rdfs:comment "An IOC or attribute inside a MISP event." .
+
+# Properties
+misp:feedProvider a rdf:Property ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:string ;
+    rdfs:label "feedProvider" .
+
+misp:feedCategory a rdf:Property ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:string ;
+    rdfs:label "feedCategory" .
+
+misp:updateInterval a rdf:Property ;
+    rdfs:domain misp:Feed ;
+    rdfs:range xsd:string ;
+    rdfs:label "updateInterval" .
+
+misp:hasTag a rdf:Property ;
+    rdfs:domain misp:Feed ;
+    rdfs:range misp:Tag ;
+    rdfs:label "hasTag" .
+
+misp:tagName a rdf:Property ;
+    rdfs:domain misp:Tag ;
+    rdfs:range xsd:string ;
+    rdfs:label "tagName" .
+
+misp:hasEvent a rdf:Property ;
+    rdfs:domain misp:Feed ;
+    rdfs:range misp:Event ;
+    rdfs:label "hasEvent" .
+
+misp:eventInfo a rdf:Property ;
+    rdfs:domain misp:Event ;
+    rdfs:range xsd:string ;
+    rdfs:label "eventInfo" .
+
+misp:eventDate a rdf:Property ;
+    rdfs:domain misp:Event ;
+    rdfs:range xsd:dateTime ;
+    rdfs:label "eventDate" .
+
+misp:hasAttribute a rdf:Property ;
+    rdfs:domain misp:Event ;
+    rdfs:range misp:Attribute ;
+    rdfs:label "hasAttribute" .
+
+misp:attrType a rdf:Property ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:string ;
+    rdfs:label "attrType" .
+
+misp:attrValue a rdf:Property ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:string ;
+    rdfs:label "attrValue" .
+
+misp:toIDS a rdf:Property ;
+    rdfs:domain misp:Attribute ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "toIDS" .

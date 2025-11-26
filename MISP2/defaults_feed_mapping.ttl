@@ -1,0 +1,37 @@
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix misp: <http://example.org/ontology/misp#> .
+@prefix ex: <http://example.org/resource/> .
+@prefix map: <http://example.org/mapping/> .
+
+# Source defaults.json (array feeds)
+map:FeedTriplesMap a rml:TriplesMap ;
+    rml:logicalSource [
+        rml:source "defaults.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.feeds[*]"
+    ] ;
+    rr:subjectMap [
+        rr:template "http://example.org/feed/{name}" ;
+        rr:class misp:Feed
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate misp:feedProvider ;
+        rr:objectMap [ rml:reference "provider" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate misp:feedCategory ;
+        rr:objectMap [ rml:reference "category" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate misp:updateInterval ;
+        rr:objectMap [ rml:reference "interval" ]
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicate misp:hasTag ;
+        rr:objectMap [
+            rr:template "http://example.org/tag/{tags[*]}" ;
+            rr:termType rr:IRI
+        ]
+    ] .
