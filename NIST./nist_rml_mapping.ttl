@@ -1,0 +1,261 @@
+@prefix : <https://w3id.org/sepses/mapping/nist#> .
+@prefix rr:  <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql:  <http://semweb.mmlab.be/ns/ql#> .
+
+@prefix nist: <https://w3id.org/sepses/resource/nist/> .
+@prefix ont:  <https://w3id.org/sepses/ontology/nist#> .
+
+
+###############################################################################
+# 1) CATALOG
+###############################################################################
+
+:CatalogMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/catalog/{metadata.uuid}" ;
+        rr:class ont:Catalog
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:title ;
+        rr:objectMap [ rml:reference "$.metadata.title" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:id ;
+        rr:objectMap [ rml:reference "$.metadata.uuid" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:propValue ;
+        rr:objectMap [ rml:reference "$.metadata.version" ]
+    ] .
+    
+
+
+###############################################################################
+# 2) CONTROL FAMILY (groups[])
+###############################################################################
+
+:FamilyMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/family/{id}" ;
+        rr:class ont:ControlFamily
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:id ;
+        rr:objectMap [ rml:reference "$.id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:title ;
+        rr:objectMap [ rml:reference "$.title" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:hasFamily ;
+        rr:objectMap [
+            rr:parentTriplesMap :CatalogMap
+        ]
+    ] .
+    
+
+
+###############################################################################
+# 3) CONTROLS (groups[*].controls[*])
+###############################################################################
+
+:ControlMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*].controls[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/control/{id}" ;
+        rr:class ont:Control
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:id ;
+        rr:objectMap [ rml:reference "$.id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:title ;
+        rr:objectMap [ rml:reference "$.title" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:hasClass ;
+        rr:objectMap [ rml:reference "$.class" ]
+    ] ;
+
+    # Link control → family
+    rr:predicateObjectMap [
+        rr:predicate ont:hasControl ;
+        rr:objectMap [
+            rr:parentTriplesMap :FamilyMap ;
+            rr:joinCondition [ rr:child "$.id" ; rr:parent "$.controls[*].id" ]
+        ]
+    ] .
+    
+
+
+###############################################################################
+# 4) PARAMETERS (params[])
+###############################################################################
+
+:ParameterMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*].controls[*].params[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/control/{parent.id}/param/{label}" ;
+        rr:class ont:Parameter
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:id ;
+        rr:objectMap [ rml:reference "$.id" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:propLabel ;
+        rr:objectMap [ rml:reference "$.label" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:paramValue ;
+        rr:objectMap [ rml:reference "$.values[*]" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:hasParameter ;
+        rr:objectMap [
+            rr:parentTriplesMap :ControlMap
+        ]
+    ] .
+    
+
+
+###############################################################################
+# 5) STATEMENTS (parts[])
+###############################################################################
+
+:StatementMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*].controls[*].parts[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/control/{parent.id}/statement/{name}" ;
+        rr:class ont:Statement
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:title ;
+        rr:objectMap [ rml:reference "$.name" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:prose ;
+        rr:objectMap [ rml:reference "$.prose" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:hasStatement ;
+        rr:objectMap [
+            rr:parentTriplesMap :ControlMap
+        ]
+    ] .
+    
+
+
+###############################################################################
+# 6) PROPERTIES (props[])
+###############################################################################
+
+:PropertyMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*].controls[*].props[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/control/{parent.id}/prop/{name}" ;
+        rr:class ont:Property
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:propLabel ;
+        rr:objectMap [ rml:reference "$.name" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:propValue ;
+        rr:objectMap [ rml:reference "$.value" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:hasProperty ;
+        rr:objectMap [
+            rr:parentTriplesMap :ControlMap
+        ]
+    ] .
+    
+
+
+###############################################################################
+# 7) LINKS (links[*])
+###############################################################################
+
+:LinkMap a rr:TriplesMap ;
+    rml:logicalSource [
+        rml:source "NIST_SP-800-53_rev5_catalog-min.json" ;
+        rml:referenceFormulation ql:JSONPath ;
+        rml:iterator "$.catalog.groups[*].controls[*].links[*]"
+    ] ;
+
+    rr:subjectMap [
+        rr:template "https://w3id.org/sepses/resource/nist/control/{parent.id}/link/{href}" ;
+        rr:class ont:Link
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:href ;
+        rr:objectMap [ rml:reference "$.href" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:rel ;
+        rr:objectMap [ rml:reference "$.rel" ]
+    ] ;
+
+    rr:predicateObjectMap [
+        rr:predicate ont:relatedTo ;
+        rr:objectMap [
+            rr:parentTriplesMap :ControlMap
+        ]
+    ] .

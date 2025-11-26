@@ -1,0 +1,1356 @@
+<https://w3id.org/sepses/resource/nist/control/ac-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-1> <https://w3id.org/sepses/ontology/nist#id> "ac-1" .
+<https://w3id.org/sepses/resource/nist/control/ac-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ac-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-10> <https://w3id.org/sepses/ontology/nist#id> "ac-10" .
+<https://w3id.org/sepses/resource/nist/control/ac-10> <https://w3id.org/sepses/ontology/nist#title> "Concurrent Session Control" .
+<https://w3id.org/sepses/resource/nist/control/ac-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-11> <https://w3id.org/sepses/ontology/nist#id> "ac-11" .
+<https://w3id.org/sepses/resource/nist/control/ac-11> <https://w3id.org/sepses/ontology/nist#title> "Device Lock" .
+<https://w3id.org/sepses/resource/nist/control/ac-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-12> <https://w3id.org/sepses/ontology/nist#id> "ac-12" .
+<https://w3id.org/sepses/resource/nist/control/ac-12> <https://w3id.org/sepses/ontology/nist#title> "Session Termination" .
+<https://w3id.org/sepses/resource/nist/control/ac-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-13> <https://w3id.org/sepses/ontology/nist#id> "ac-13" .
+<https://w3id.org/sepses/resource/nist/control/ac-13> <https://w3id.org/sepses/ontology/nist#title> "Supervision and Review — Access Control" .
+<https://w3id.org/sepses/resource/nist/control/ac-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-14> <https://w3id.org/sepses/ontology/nist#id> "ac-14" .
+<https://w3id.org/sepses/resource/nist/control/ac-14> <https://w3id.org/sepses/ontology/nist#title> "Permitted Actions Without Identification or Authentication" .
+<https://w3id.org/sepses/resource/nist/control/ac-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-15> <https://w3id.org/sepses/ontology/nist#id> "ac-15" .
+<https://w3id.org/sepses/resource/nist/control/ac-15> <https://w3id.org/sepses/ontology/nist#title> "Automated Marking" .
+<https://w3id.org/sepses/resource/nist/control/ac-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-16> <https://w3id.org/sepses/ontology/nist#id> "ac-16" .
+<https://w3id.org/sepses/resource/nist/control/ac-16> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Attributes" .
+<https://w3id.org/sepses/resource/nist/control/ac-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-17> <https://w3id.org/sepses/ontology/nist#id> "ac-17" .
+<https://w3id.org/sepses/resource/nist/control/ac-17> <https://w3id.org/sepses/ontology/nist#title> "Remote Access" .
+<https://w3id.org/sepses/resource/nist/control/ac-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-18> <https://w3id.org/sepses/ontology/nist#id> "ac-18" .
+<https://w3id.org/sepses/resource/nist/control/ac-18> <https://w3id.org/sepses/ontology/nist#title> "Wireless Access" .
+<https://w3id.org/sepses/resource/nist/control/ac-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-19> <https://w3id.org/sepses/ontology/nist#id> "ac-19" .
+<https://w3id.org/sepses/resource/nist/control/ac-19> <https://w3id.org/sepses/ontology/nist#title> "Access Control for Mobile Devices" .
+<https://w3id.org/sepses/resource/nist/control/ac-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-2> <https://w3id.org/sepses/ontology/nist#id> "ac-2" .
+<https://w3id.org/sepses/resource/nist/control/ac-2> <https://w3id.org/sepses/ontology/nist#title> "Account Management" .
+<https://w3id.org/sepses/resource/nist/control/ac-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-20> <https://w3id.org/sepses/ontology/nist#id> "ac-20" .
+<https://w3id.org/sepses/resource/nist/control/ac-20> <https://w3id.org/sepses/ontology/nist#title> "Use of External Systems" .
+<https://w3id.org/sepses/resource/nist/control/ac-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-21> <https://w3id.org/sepses/ontology/nist#id> "ac-21" .
+<https://w3id.org/sepses/resource/nist/control/ac-21> <https://w3id.org/sepses/ontology/nist#title> "Information Sharing" .
+<https://w3id.org/sepses/resource/nist/control/ac-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-22> <https://w3id.org/sepses/ontology/nist#id> "ac-22" .
+<https://w3id.org/sepses/resource/nist/control/ac-22> <https://w3id.org/sepses/ontology/nist#title> "Publicly Accessible Content" .
+<https://w3id.org/sepses/resource/nist/control/ac-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-23> <https://w3id.org/sepses/ontology/nist#id> "ac-23" .
+<https://w3id.org/sepses/resource/nist/control/ac-23> <https://w3id.org/sepses/ontology/nist#title> "Data Mining Protection" .
+<https://w3id.org/sepses/resource/nist/control/ac-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-24> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-24> <https://w3id.org/sepses/ontology/nist#id> "ac-24" .
+<https://w3id.org/sepses/resource/nist/control/ac-24> <https://w3id.org/sepses/ontology/nist#title> "Access Control Decisions" .
+<https://w3id.org/sepses/resource/nist/control/ac-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-25> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-25> <https://w3id.org/sepses/ontology/nist#id> "ac-25" .
+<https://w3id.org/sepses/resource/nist/control/ac-25> <https://w3id.org/sepses/ontology/nist#title> "Reference Monitor" .
+<https://w3id.org/sepses/resource/nist/control/ac-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-3> <https://w3id.org/sepses/ontology/nist#id> "ac-3" .
+<https://w3id.org/sepses/resource/nist/control/ac-3> <https://w3id.org/sepses/ontology/nist#title> "Access Enforcement" .
+<https://w3id.org/sepses/resource/nist/control/ac-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-4> <https://w3id.org/sepses/ontology/nist#id> "ac-4" .
+<https://w3id.org/sepses/resource/nist/control/ac-4> <https://w3id.org/sepses/ontology/nist#title> "Information Flow Enforcement" .
+<https://w3id.org/sepses/resource/nist/control/ac-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-5> <https://w3id.org/sepses/ontology/nist#id> "ac-5" .
+<https://w3id.org/sepses/resource/nist/control/ac-5> <https://w3id.org/sepses/ontology/nist#title> "Separation of Duties" .
+<https://w3id.org/sepses/resource/nist/control/ac-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-6> <https://w3id.org/sepses/ontology/nist#id> "ac-6" .
+<https://w3id.org/sepses/resource/nist/control/ac-6> <https://w3id.org/sepses/ontology/nist#title> "Least Privilege" .
+<https://w3id.org/sepses/resource/nist/control/ac-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-7> <https://w3id.org/sepses/ontology/nist#id> "ac-7" .
+<https://w3id.org/sepses/resource/nist/control/ac-7> <https://w3id.org/sepses/ontology/nist#title> "Unsuccessful Logon Attempts" .
+<https://w3id.org/sepses/resource/nist/control/ac-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-8> <https://w3id.org/sepses/ontology/nist#id> "ac-8" .
+<https://w3id.org/sepses/resource/nist/control/ac-8> <https://w3id.org/sepses/ontology/nist#title> "System Use Notification" .
+<https://w3id.org/sepses/resource/nist/control/ac-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ac-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ac-9> <https://w3id.org/sepses/ontology/nist#id> "ac-9" .
+<https://w3id.org/sepses/resource/nist/control/ac-9> <https://w3id.org/sepses/ontology/nist#title> "Previous Logon Notification" .
+<https://w3id.org/sepses/resource/nist/control/at-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-1> <https://w3id.org/sepses/ontology/nist#id> "at-1" .
+<https://w3id.org/sepses/resource/nist/control/at-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/at-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-2> <https://w3id.org/sepses/ontology/nist#id> "at-2" .
+<https://w3id.org/sepses/resource/nist/control/at-2> <https://w3id.org/sepses/ontology/nist#title> "Literacy Training and Awareness" .
+<https://w3id.org/sepses/resource/nist/control/at-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-3> <https://w3id.org/sepses/ontology/nist#id> "at-3" .
+<https://w3id.org/sepses/resource/nist/control/at-3> <https://w3id.org/sepses/ontology/nist#title> "Role-based Training" .
+<https://w3id.org/sepses/resource/nist/control/at-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-4> <https://w3id.org/sepses/ontology/nist#id> "at-4" .
+<https://w3id.org/sepses/resource/nist/control/at-4> <https://w3id.org/sepses/ontology/nist#title> "Training Records" .
+<https://w3id.org/sepses/resource/nist/control/at-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-5> <https://w3id.org/sepses/ontology/nist#id> "at-5" .
+<https://w3id.org/sepses/resource/nist/control/at-5> <https://w3id.org/sepses/ontology/nist#title> "Contacts with Security Groups and Associations" .
+<https://w3id.org/sepses/resource/nist/control/at-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/at-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/at-6> <https://w3id.org/sepses/ontology/nist#id> "at-6" .
+<https://w3id.org/sepses/resource/nist/control/at-6> <https://w3id.org/sepses/ontology/nist#title> "Training Feedback" .
+<https://w3id.org/sepses/resource/nist/control/au-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-1> <https://w3id.org/sepses/ontology/nist#id> "au-1" .
+<https://w3id.org/sepses/resource/nist/control/au-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/au-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-10> <https://w3id.org/sepses/ontology/nist#id> "au-10" .
+<https://w3id.org/sepses/resource/nist/control/au-10> <https://w3id.org/sepses/ontology/nist#title> "Non-repudiation" .
+<https://w3id.org/sepses/resource/nist/control/au-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-11> <https://w3id.org/sepses/ontology/nist#id> "au-11" .
+<https://w3id.org/sepses/resource/nist/control/au-11> <https://w3id.org/sepses/ontology/nist#title> "Audit Record Retention" .
+<https://w3id.org/sepses/resource/nist/control/au-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-12> <https://w3id.org/sepses/ontology/nist#id> "au-12" .
+<https://w3id.org/sepses/resource/nist/control/au-12> <https://w3id.org/sepses/ontology/nist#title> "Audit Record Generation" .
+<https://w3id.org/sepses/resource/nist/control/au-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-13> <https://w3id.org/sepses/ontology/nist#id> "au-13" .
+<https://w3id.org/sepses/resource/nist/control/au-13> <https://w3id.org/sepses/ontology/nist#title> "Monitoring for Information Disclosure" .
+<https://w3id.org/sepses/resource/nist/control/au-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-14> <https://w3id.org/sepses/ontology/nist#id> "au-14" .
+<https://w3id.org/sepses/resource/nist/control/au-14> <https://w3id.org/sepses/ontology/nist#title> "Session Audit" .
+<https://w3id.org/sepses/resource/nist/control/au-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-15> <https://w3id.org/sepses/ontology/nist#id> "au-15" .
+<https://w3id.org/sepses/resource/nist/control/au-15> <https://w3id.org/sepses/ontology/nist#title> "Alternate Audit Logging Capability" .
+<https://w3id.org/sepses/resource/nist/control/au-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-16> <https://w3id.org/sepses/ontology/nist#id> "au-16" .
+<https://w3id.org/sepses/resource/nist/control/au-16> <https://w3id.org/sepses/ontology/nist#title> "Cross-organizational Audit Logging" .
+<https://w3id.org/sepses/resource/nist/control/au-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-2> <https://w3id.org/sepses/ontology/nist#id> "au-2" .
+<https://w3id.org/sepses/resource/nist/control/au-2> <https://w3id.org/sepses/ontology/nist#title> "Event Logging" .
+<https://w3id.org/sepses/resource/nist/control/au-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-3> <https://w3id.org/sepses/ontology/nist#id> "au-3" .
+<https://w3id.org/sepses/resource/nist/control/au-3> <https://w3id.org/sepses/ontology/nist#title> "Content of Audit Records" .
+<https://w3id.org/sepses/resource/nist/control/au-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-4> <https://w3id.org/sepses/ontology/nist#id> "au-4" .
+<https://w3id.org/sepses/resource/nist/control/au-4> <https://w3id.org/sepses/ontology/nist#title> "Audit Log Storage Capacity" .
+<https://w3id.org/sepses/resource/nist/control/au-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-5> <https://w3id.org/sepses/ontology/nist#id> "au-5" .
+<https://w3id.org/sepses/resource/nist/control/au-5> <https://w3id.org/sepses/ontology/nist#title> "Response to Audit Logging Process Failures" .
+<https://w3id.org/sepses/resource/nist/control/au-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-6> <https://w3id.org/sepses/ontology/nist#id> "au-6" .
+<https://w3id.org/sepses/resource/nist/control/au-6> <https://w3id.org/sepses/ontology/nist#title> "Audit Record Review, Analysis, and Reporting" .
+<https://w3id.org/sepses/resource/nist/control/au-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-7> <https://w3id.org/sepses/ontology/nist#id> "au-7" .
+<https://w3id.org/sepses/resource/nist/control/au-7> <https://w3id.org/sepses/ontology/nist#title> "Audit Record Reduction and Report Generation" .
+<https://w3id.org/sepses/resource/nist/control/au-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-8> <https://w3id.org/sepses/ontology/nist#id> "au-8" .
+<https://w3id.org/sepses/resource/nist/control/au-8> <https://w3id.org/sepses/ontology/nist#title> "Time Stamps" .
+<https://w3id.org/sepses/resource/nist/control/au-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/au-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/au-9> <https://w3id.org/sepses/ontology/nist#id> "au-9" .
+<https://w3id.org/sepses/resource/nist/control/au-9> <https://w3id.org/sepses/ontology/nist#title> "Protection of Audit Information" .
+<https://w3id.org/sepses/resource/nist/control/ca-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-1> <https://w3id.org/sepses/ontology/nist#id> "ca-1" .
+<https://w3id.org/sepses/resource/nist/control/ca-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ca-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-2> <https://w3id.org/sepses/ontology/nist#id> "ca-2" .
+<https://w3id.org/sepses/resource/nist/control/ca-2> <https://w3id.org/sepses/ontology/nist#title> "Control Assessments" .
+<https://w3id.org/sepses/resource/nist/control/ca-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-3> <https://w3id.org/sepses/ontology/nist#id> "ca-3" .
+<https://w3id.org/sepses/resource/nist/control/ca-3> <https://w3id.org/sepses/ontology/nist#title> "Information Exchange" .
+<https://w3id.org/sepses/resource/nist/control/ca-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-4> <https://w3id.org/sepses/ontology/nist#id> "ca-4" .
+<https://w3id.org/sepses/resource/nist/control/ca-4> <https://w3id.org/sepses/ontology/nist#title> "Security Certification" .
+<https://w3id.org/sepses/resource/nist/control/ca-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-5> <https://w3id.org/sepses/ontology/nist#id> "ca-5" .
+<https://w3id.org/sepses/resource/nist/control/ca-5> <https://w3id.org/sepses/ontology/nist#title> "Plan of Action and Milestones" .
+<https://w3id.org/sepses/resource/nist/control/ca-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-6> <https://w3id.org/sepses/ontology/nist#id> "ca-6" .
+<https://w3id.org/sepses/resource/nist/control/ca-6> <https://w3id.org/sepses/ontology/nist#title> "Authorization" .
+<https://w3id.org/sepses/resource/nist/control/ca-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-7> <https://w3id.org/sepses/ontology/nist#id> "ca-7" .
+<https://w3id.org/sepses/resource/nist/control/ca-7> <https://w3id.org/sepses/ontology/nist#title> "Continuous Monitoring" .
+<https://w3id.org/sepses/resource/nist/control/ca-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-8> <https://w3id.org/sepses/ontology/nist#id> "ca-8" .
+<https://w3id.org/sepses/resource/nist/control/ca-8> <https://w3id.org/sepses/ontology/nist#title> "Penetration Testing" .
+<https://w3id.org/sepses/resource/nist/control/ca-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ca-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ca-9> <https://w3id.org/sepses/ontology/nist#id> "ca-9" .
+<https://w3id.org/sepses/resource/nist/control/ca-9> <https://w3id.org/sepses/ontology/nist#title> "Internal System Connections" .
+<https://w3id.org/sepses/resource/nist/control/cm-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-1> <https://w3id.org/sepses/ontology/nist#id> "cm-1" .
+<https://w3id.org/sepses/resource/nist/control/cm-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/cm-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-10> <https://w3id.org/sepses/ontology/nist#id> "cm-10" .
+<https://w3id.org/sepses/resource/nist/control/cm-10> <https://w3id.org/sepses/ontology/nist#title> "Software Usage Restrictions" .
+<https://w3id.org/sepses/resource/nist/control/cm-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-11> <https://w3id.org/sepses/ontology/nist#id> "cm-11" .
+<https://w3id.org/sepses/resource/nist/control/cm-11> <https://w3id.org/sepses/ontology/nist#title> "User-installed Software" .
+<https://w3id.org/sepses/resource/nist/control/cm-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-12> <https://w3id.org/sepses/ontology/nist#id> "cm-12" .
+<https://w3id.org/sepses/resource/nist/control/cm-12> <https://w3id.org/sepses/ontology/nist#title> "Information Location" .
+<https://w3id.org/sepses/resource/nist/control/cm-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-13> <https://w3id.org/sepses/ontology/nist#id> "cm-13" .
+<https://w3id.org/sepses/resource/nist/control/cm-13> <https://w3id.org/sepses/ontology/nist#title> "Data Action Mapping" .
+<https://w3id.org/sepses/resource/nist/control/cm-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-14> <https://w3id.org/sepses/ontology/nist#id> "cm-14" .
+<https://w3id.org/sepses/resource/nist/control/cm-14> <https://w3id.org/sepses/ontology/nist#title> "Signed Components" .
+<https://w3id.org/sepses/resource/nist/control/cm-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-2> <https://w3id.org/sepses/ontology/nist#id> "cm-2" .
+<https://w3id.org/sepses/resource/nist/control/cm-2> <https://w3id.org/sepses/ontology/nist#title> "Baseline Configuration" .
+<https://w3id.org/sepses/resource/nist/control/cm-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-3> <https://w3id.org/sepses/ontology/nist#id> "cm-3" .
+<https://w3id.org/sepses/resource/nist/control/cm-3> <https://w3id.org/sepses/ontology/nist#title> "Configuration Change Control" .
+<https://w3id.org/sepses/resource/nist/control/cm-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-4> <https://w3id.org/sepses/ontology/nist#id> "cm-4" .
+<https://w3id.org/sepses/resource/nist/control/cm-4> <https://w3id.org/sepses/ontology/nist#title> "Impact Analyses" .
+<https://w3id.org/sepses/resource/nist/control/cm-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-5> <https://w3id.org/sepses/ontology/nist#id> "cm-5" .
+<https://w3id.org/sepses/resource/nist/control/cm-5> <https://w3id.org/sepses/ontology/nist#title> "Access Restrictions for Change" .
+<https://w3id.org/sepses/resource/nist/control/cm-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-6> <https://w3id.org/sepses/ontology/nist#id> "cm-6" .
+<https://w3id.org/sepses/resource/nist/control/cm-6> <https://w3id.org/sepses/ontology/nist#title> "Configuration Settings" .
+<https://w3id.org/sepses/resource/nist/control/cm-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-7> <https://w3id.org/sepses/ontology/nist#id> "cm-7" .
+<https://w3id.org/sepses/resource/nist/control/cm-7> <https://w3id.org/sepses/ontology/nist#title> "Least Functionality" .
+<https://w3id.org/sepses/resource/nist/control/cm-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-8> <https://w3id.org/sepses/ontology/nist#id> "cm-8" .
+<https://w3id.org/sepses/resource/nist/control/cm-8> <https://w3id.org/sepses/ontology/nist#title> "System Component Inventory" .
+<https://w3id.org/sepses/resource/nist/control/cm-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cm-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cm-9> <https://w3id.org/sepses/ontology/nist#id> "cm-9" .
+<https://w3id.org/sepses/resource/nist/control/cm-9> <https://w3id.org/sepses/ontology/nist#title> "Configuration Management Plan" .
+<https://w3id.org/sepses/resource/nist/control/cp-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-1> <https://w3id.org/sepses/ontology/nist#id> "cp-1" .
+<https://w3id.org/sepses/resource/nist/control/cp-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/cp-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-10> <https://w3id.org/sepses/ontology/nist#id> "cp-10" .
+<https://w3id.org/sepses/resource/nist/control/cp-10> <https://w3id.org/sepses/ontology/nist#title> "System Recovery and Reconstitution" .
+<https://w3id.org/sepses/resource/nist/control/cp-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-11> <https://w3id.org/sepses/ontology/nist#id> "cp-11" .
+<https://w3id.org/sepses/resource/nist/control/cp-11> <https://w3id.org/sepses/ontology/nist#title> "Alternate Communications Protocols" .
+<https://w3id.org/sepses/resource/nist/control/cp-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-12> <https://w3id.org/sepses/ontology/nist#id> "cp-12" .
+<https://w3id.org/sepses/resource/nist/control/cp-12> <https://w3id.org/sepses/ontology/nist#title> "Safe Mode" .
+<https://w3id.org/sepses/resource/nist/control/cp-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-13> <https://w3id.org/sepses/ontology/nist#id> "cp-13" .
+<https://w3id.org/sepses/resource/nist/control/cp-13> <https://w3id.org/sepses/ontology/nist#title> "Alternative Security Mechanisms" .
+<https://w3id.org/sepses/resource/nist/control/cp-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-2> <https://w3id.org/sepses/ontology/nist#id> "cp-2" .
+<https://w3id.org/sepses/resource/nist/control/cp-2> <https://w3id.org/sepses/ontology/nist#title> "Contingency Plan" .
+<https://w3id.org/sepses/resource/nist/control/cp-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-3> <https://w3id.org/sepses/ontology/nist#id> "cp-3" .
+<https://w3id.org/sepses/resource/nist/control/cp-3> <https://w3id.org/sepses/ontology/nist#title> "Contingency Training" .
+<https://w3id.org/sepses/resource/nist/control/cp-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-4> <https://w3id.org/sepses/ontology/nist#id> "cp-4" .
+<https://w3id.org/sepses/resource/nist/control/cp-4> <https://w3id.org/sepses/ontology/nist#title> "Contingency Plan Testing" .
+<https://w3id.org/sepses/resource/nist/control/cp-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-5> <https://w3id.org/sepses/ontology/nist#id> "cp-5" .
+<https://w3id.org/sepses/resource/nist/control/cp-5> <https://w3id.org/sepses/ontology/nist#title> "Contingency Plan Update" .
+<https://w3id.org/sepses/resource/nist/control/cp-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-6> <https://w3id.org/sepses/ontology/nist#id> "cp-6" .
+<https://w3id.org/sepses/resource/nist/control/cp-6> <https://w3id.org/sepses/ontology/nist#title> "Alternate Storage Site" .
+<https://w3id.org/sepses/resource/nist/control/cp-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-7> <https://w3id.org/sepses/ontology/nist#id> "cp-7" .
+<https://w3id.org/sepses/resource/nist/control/cp-7> <https://w3id.org/sepses/ontology/nist#title> "Alternate Processing Site" .
+<https://w3id.org/sepses/resource/nist/control/cp-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-8> <https://w3id.org/sepses/ontology/nist#id> "cp-8" .
+<https://w3id.org/sepses/resource/nist/control/cp-8> <https://w3id.org/sepses/ontology/nist#title> "Telecommunications Services" .
+<https://w3id.org/sepses/resource/nist/control/cp-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/cp-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/cp-9> <https://w3id.org/sepses/ontology/nist#id> "cp-9" .
+<https://w3id.org/sepses/resource/nist/control/cp-9> <https://w3id.org/sepses/ontology/nist#title> "System Backup" .
+<https://w3id.org/sepses/resource/nist/control/ia-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-1> <https://w3id.org/sepses/ontology/nist#id> "ia-1" .
+<https://w3id.org/sepses/resource/nist/control/ia-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ia-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-10> <https://w3id.org/sepses/ontology/nist#id> "ia-10" .
+<https://w3id.org/sepses/resource/nist/control/ia-10> <https://w3id.org/sepses/ontology/nist#title> "Adaptive Authentication" .
+<https://w3id.org/sepses/resource/nist/control/ia-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-11> <https://w3id.org/sepses/ontology/nist#id> "ia-11" .
+<https://w3id.org/sepses/resource/nist/control/ia-11> <https://w3id.org/sepses/ontology/nist#title> "Re-authentication" .
+<https://w3id.org/sepses/resource/nist/control/ia-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-12> <https://w3id.org/sepses/ontology/nist#id> "ia-12" .
+<https://w3id.org/sepses/resource/nist/control/ia-12> <https://w3id.org/sepses/ontology/nist#title> "Identity Proofing" .
+<https://w3id.org/sepses/resource/nist/control/ia-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-13> <https://w3id.org/sepses/ontology/nist#id> "ia-13" .
+<https://w3id.org/sepses/resource/nist/control/ia-13> <https://w3id.org/sepses/ontology/nist#title> "Identity Providers and Authorization Servers" .
+<https://w3id.org/sepses/resource/nist/control/ia-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-2> <https://w3id.org/sepses/ontology/nist#id> "ia-2" .
+<https://w3id.org/sepses/resource/nist/control/ia-2> <https://w3id.org/sepses/ontology/nist#title> "Identification and Authentication (Organizational Users)" .
+<https://w3id.org/sepses/resource/nist/control/ia-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-3> <https://w3id.org/sepses/ontology/nist#id> "ia-3" .
+<https://w3id.org/sepses/resource/nist/control/ia-3> <https://w3id.org/sepses/ontology/nist#title> "Device Identification and Authentication" .
+<https://w3id.org/sepses/resource/nist/control/ia-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-4> <https://w3id.org/sepses/ontology/nist#id> "ia-4" .
+<https://w3id.org/sepses/resource/nist/control/ia-4> <https://w3id.org/sepses/ontology/nist#title> "Identifier Management" .
+<https://w3id.org/sepses/resource/nist/control/ia-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-5> <https://w3id.org/sepses/ontology/nist#id> "ia-5" .
+<https://w3id.org/sepses/resource/nist/control/ia-5> <https://w3id.org/sepses/ontology/nist#title> "Authenticator Management" .
+<https://w3id.org/sepses/resource/nist/control/ia-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-6> <https://w3id.org/sepses/ontology/nist#id> "ia-6" .
+<https://w3id.org/sepses/resource/nist/control/ia-6> <https://w3id.org/sepses/ontology/nist#title> "Authentication Feedback" .
+<https://w3id.org/sepses/resource/nist/control/ia-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-7> <https://w3id.org/sepses/ontology/nist#id> "ia-7" .
+<https://w3id.org/sepses/resource/nist/control/ia-7> <https://w3id.org/sepses/ontology/nist#title> "Cryptographic Module Authentication" .
+<https://w3id.org/sepses/resource/nist/control/ia-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-8> <https://w3id.org/sepses/ontology/nist#id> "ia-8" .
+<https://w3id.org/sepses/resource/nist/control/ia-8> <https://w3id.org/sepses/ontology/nist#title> "Identification and Authentication (Non-organizational Users)" .
+<https://w3id.org/sepses/resource/nist/control/ia-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ia-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ia-9> <https://w3id.org/sepses/ontology/nist#id> "ia-9" .
+<https://w3id.org/sepses/resource/nist/control/ia-9> <https://w3id.org/sepses/ontology/nist#title> "Service Identification and Authentication" .
+<https://w3id.org/sepses/resource/nist/control/ir-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-1> <https://w3id.org/sepses/ontology/nist#id> "ir-1" .
+<https://w3id.org/sepses/resource/nist/control/ir-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ir-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-10> <https://w3id.org/sepses/ontology/nist#id> "ir-10" .
+<https://w3id.org/sepses/resource/nist/control/ir-10> <https://w3id.org/sepses/ontology/nist#title> "Integrated Information Security Analysis Team" .
+<https://w3id.org/sepses/resource/nist/control/ir-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-2> <https://w3id.org/sepses/ontology/nist#id> "ir-2" .
+<https://w3id.org/sepses/resource/nist/control/ir-2> <https://w3id.org/sepses/ontology/nist#title> "Incident Response Training" .
+<https://w3id.org/sepses/resource/nist/control/ir-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-3> <https://w3id.org/sepses/ontology/nist#id> "ir-3" .
+<https://w3id.org/sepses/resource/nist/control/ir-3> <https://w3id.org/sepses/ontology/nist#title> "Incident Response Testing" .
+<https://w3id.org/sepses/resource/nist/control/ir-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-4> <https://w3id.org/sepses/ontology/nist#id> "ir-4" .
+<https://w3id.org/sepses/resource/nist/control/ir-4> <https://w3id.org/sepses/ontology/nist#title> "Incident Handling" .
+<https://w3id.org/sepses/resource/nist/control/ir-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-5> <https://w3id.org/sepses/ontology/nist#id> "ir-5" .
+<https://w3id.org/sepses/resource/nist/control/ir-5> <https://w3id.org/sepses/ontology/nist#title> "Incident Monitoring" .
+<https://w3id.org/sepses/resource/nist/control/ir-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-6> <https://w3id.org/sepses/ontology/nist#id> "ir-6" .
+<https://w3id.org/sepses/resource/nist/control/ir-6> <https://w3id.org/sepses/ontology/nist#title> "Incident Reporting" .
+<https://w3id.org/sepses/resource/nist/control/ir-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-7> <https://w3id.org/sepses/ontology/nist#id> "ir-7" .
+<https://w3id.org/sepses/resource/nist/control/ir-7> <https://w3id.org/sepses/ontology/nist#title> "Incident Response Assistance" .
+<https://w3id.org/sepses/resource/nist/control/ir-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-8> <https://w3id.org/sepses/ontology/nist#id> "ir-8" .
+<https://w3id.org/sepses/resource/nist/control/ir-8> <https://w3id.org/sepses/ontology/nist#title> "Incident Response Plan" .
+<https://w3id.org/sepses/resource/nist/control/ir-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ir-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ir-9> <https://w3id.org/sepses/ontology/nist#id> "ir-9" .
+<https://w3id.org/sepses/resource/nist/control/ir-9> <https://w3id.org/sepses/ontology/nist#title> "Information Spillage Response" .
+<https://w3id.org/sepses/resource/nist/control/ma-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-1> <https://w3id.org/sepses/ontology/nist#id> "ma-1" .
+<https://w3id.org/sepses/resource/nist/control/ma-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ma-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-2> <https://w3id.org/sepses/ontology/nist#id> "ma-2" .
+<https://w3id.org/sepses/resource/nist/control/ma-2> <https://w3id.org/sepses/ontology/nist#title> "Controlled Maintenance" .
+<https://w3id.org/sepses/resource/nist/control/ma-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-3> <https://w3id.org/sepses/ontology/nist#id> "ma-3" .
+<https://w3id.org/sepses/resource/nist/control/ma-3> <https://w3id.org/sepses/ontology/nist#title> "Maintenance Tools" .
+<https://w3id.org/sepses/resource/nist/control/ma-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-4> <https://w3id.org/sepses/ontology/nist#id> "ma-4" .
+<https://w3id.org/sepses/resource/nist/control/ma-4> <https://w3id.org/sepses/ontology/nist#title> "Nonlocal Maintenance" .
+<https://w3id.org/sepses/resource/nist/control/ma-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-5> <https://w3id.org/sepses/ontology/nist#id> "ma-5" .
+<https://w3id.org/sepses/resource/nist/control/ma-5> <https://w3id.org/sepses/ontology/nist#title> "Maintenance Personnel" .
+<https://w3id.org/sepses/resource/nist/control/ma-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-6> <https://w3id.org/sepses/ontology/nist#id> "ma-6" .
+<https://w3id.org/sepses/resource/nist/control/ma-6> <https://w3id.org/sepses/ontology/nist#title> "Timely Maintenance" .
+<https://w3id.org/sepses/resource/nist/control/ma-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ma-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ma-7> <https://w3id.org/sepses/ontology/nist#id> "ma-7" .
+<https://w3id.org/sepses/resource/nist/control/ma-7> <https://w3id.org/sepses/ontology/nist#title> "Field Maintenance" .
+<https://w3id.org/sepses/resource/nist/control/mp-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-1> <https://w3id.org/sepses/ontology/nist#id> "mp-1" .
+<https://w3id.org/sepses/resource/nist/control/mp-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/mp-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-2> <https://w3id.org/sepses/ontology/nist#id> "mp-2" .
+<https://w3id.org/sepses/resource/nist/control/mp-2> <https://w3id.org/sepses/ontology/nist#title> "Media Access" .
+<https://w3id.org/sepses/resource/nist/control/mp-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-3> <https://w3id.org/sepses/ontology/nist#id> "mp-3" .
+<https://w3id.org/sepses/resource/nist/control/mp-3> <https://w3id.org/sepses/ontology/nist#title> "Media Marking" .
+<https://w3id.org/sepses/resource/nist/control/mp-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-4> <https://w3id.org/sepses/ontology/nist#id> "mp-4" .
+<https://w3id.org/sepses/resource/nist/control/mp-4> <https://w3id.org/sepses/ontology/nist#title> "Media Storage" .
+<https://w3id.org/sepses/resource/nist/control/mp-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-5> <https://w3id.org/sepses/ontology/nist#id> "mp-5" .
+<https://w3id.org/sepses/resource/nist/control/mp-5> <https://w3id.org/sepses/ontology/nist#title> "Media Transport" .
+<https://w3id.org/sepses/resource/nist/control/mp-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-6> <https://w3id.org/sepses/ontology/nist#id> "mp-6" .
+<https://w3id.org/sepses/resource/nist/control/mp-6> <https://w3id.org/sepses/ontology/nist#title> "Media Sanitization" .
+<https://w3id.org/sepses/resource/nist/control/mp-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-7> <https://w3id.org/sepses/ontology/nist#id> "mp-7" .
+<https://w3id.org/sepses/resource/nist/control/mp-7> <https://w3id.org/sepses/ontology/nist#title> "Media Use" .
+<https://w3id.org/sepses/resource/nist/control/mp-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/mp-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/mp-8> <https://w3id.org/sepses/ontology/nist#id> "mp-8" .
+<https://w3id.org/sepses/resource/nist/control/mp-8> <https://w3id.org/sepses/ontology/nist#title> "Media Downgrading" .
+<https://w3id.org/sepses/resource/nist/control/pe-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-1> <https://w3id.org/sepses/ontology/nist#id> "pe-1" .
+<https://w3id.org/sepses/resource/nist/control/pe-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/pe-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-10> <https://w3id.org/sepses/ontology/nist#id> "pe-10" .
+<https://w3id.org/sepses/resource/nist/control/pe-10> <https://w3id.org/sepses/ontology/nist#title> "Emergency Shutoff" .
+<https://w3id.org/sepses/resource/nist/control/pe-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-11> <https://w3id.org/sepses/ontology/nist#id> "pe-11" .
+<https://w3id.org/sepses/resource/nist/control/pe-11> <https://w3id.org/sepses/ontology/nist#title> "Emergency Power" .
+<https://w3id.org/sepses/resource/nist/control/pe-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-12> <https://w3id.org/sepses/ontology/nist#id> "pe-12" .
+<https://w3id.org/sepses/resource/nist/control/pe-12> <https://w3id.org/sepses/ontology/nist#title> "Emergency Lighting" .
+<https://w3id.org/sepses/resource/nist/control/pe-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-13> <https://w3id.org/sepses/ontology/nist#id> "pe-13" .
+<https://w3id.org/sepses/resource/nist/control/pe-13> <https://w3id.org/sepses/ontology/nist#title> "Fire Protection" .
+<https://w3id.org/sepses/resource/nist/control/pe-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-14> <https://w3id.org/sepses/ontology/nist#id> "pe-14" .
+<https://w3id.org/sepses/resource/nist/control/pe-14> <https://w3id.org/sepses/ontology/nist#title> "Environmental Controls" .
+<https://w3id.org/sepses/resource/nist/control/pe-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-15> <https://w3id.org/sepses/ontology/nist#id> "pe-15" .
+<https://w3id.org/sepses/resource/nist/control/pe-15> <https://w3id.org/sepses/ontology/nist#title> "Water Damage Protection" .
+<https://w3id.org/sepses/resource/nist/control/pe-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-16> <https://w3id.org/sepses/ontology/nist#id> "pe-16" .
+<https://w3id.org/sepses/resource/nist/control/pe-16> <https://w3id.org/sepses/ontology/nist#title> "Delivery and Removal" .
+<https://w3id.org/sepses/resource/nist/control/pe-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-17> <https://w3id.org/sepses/ontology/nist#id> "pe-17" .
+<https://w3id.org/sepses/resource/nist/control/pe-17> <https://w3id.org/sepses/ontology/nist#title> "Alternate Work Site" .
+<https://w3id.org/sepses/resource/nist/control/pe-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-18> <https://w3id.org/sepses/ontology/nist#id> "pe-18" .
+<https://w3id.org/sepses/resource/nist/control/pe-18> <https://w3id.org/sepses/ontology/nist#title> "Location of System Components" .
+<https://w3id.org/sepses/resource/nist/control/pe-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-19> <https://w3id.org/sepses/ontology/nist#id> "pe-19" .
+<https://w3id.org/sepses/resource/nist/control/pe-19> <https://w3id.org/sepses/ontology/nist#title> "Information Leakage" .
+<https://w3id.org/sepses/resource/nist/control/pe-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-2> <https://w3id.org/sepses/ontology/nist#id> "pe-2" .
+<https://w3id.org/sepses/resource/nist/control/pe-2> <https://w3id.org/sepses/ontology/nist#title> "Physical Access Authorizations" .
+<https://w3id.org/sepses/resource/nist/control/pe-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-20> <https://w3id.org/sepses/ontology/nist#id> "pe-20" .
+<https://w3id.org/sepses/resource/nist/control/pe-20> <https://w3id.org/sepses/ontology/nist#title> "Asset Monitoring and Tracking" .
+<https://w3id.org/sepses/resource/nist/control/pe-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-21> <https://w3id.org/sepses/ontology/nist#id> "pe-21" .
+<https://w3id.org/sepses/resource/nist/control/pe-21> <https://w3id.org/sepses/ontology/nist#title> "Electromagnetic Pulse Protection" .
+<https://w3id.org/sepses/resource/nist/control/pe-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-22> <https://w3id.org/sepses/ontology/nist#id> "pe-22" .
+<https://w3id.org/sepses/resource/nist/control/pe-22> <https://w3id.org/sepses/ontology/nist#title> "Component Marking" .
+<https://w3id.org/sepses/resource/nist/control/pe-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-23> <https://w3id.org/sepses/ontology/nist#id> "pe-23" .
+<https://w3id.org/sepses/resource/nist/control/pe-23> <https://w3id.org/sepses/ontology/nist#title> "Facility Location" .
+<https://w3id.org/sepses/resource/nist/control/pe-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-3> <https://w3id.org/sepses/ontology/nist#id> "pe-3" .
+<https://w3id.org/sepses/resource/nist/control/pe-3> <https://w3id.org/sepses/ontology/nist#title> "Physical Access Control" .
+<https://w3id.org/sepses/resource/nist/control/pe-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-4> <https://w3id.org/sepses/ontology/nist#id> "pe-4" .
+<https://w3id.org/sepses/resource/nist/control/pe-4> <https://w3id.org/sepses/ontology/nist#title> "Access Control for Transmission" .
+<https://w3id.org/sepses/resource/nist/control/pe-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-5> <https://w3id.org/sepses/ontology/nist#id> "pe-5" .
+<https://w3id.org/sepses/resource/nist/control/pe-5> <https://w3id.org/sepses/ontology/nist#title> "Access Control for Output Devices" .
+<https://w3id.org/sepses/resource/nist/control/pe-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-6> <https://w3id.org/sepses/ontology/nist#id> "pe-6" .
+<https://w3id.org/sepses/resource/nist/control/pe-6> <https://w3id.org/sepses/ontology/nist#title> "Monitoring Physical Access" .
+<https://w3id.org/sepses/resource/nist/control/pe-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-7> <https://w3id.org/sepses/ontology/nist#id> "pe-7" .
+<https://w3id.org/sepses/resource/nist/control/pe-7> <https://w3id.org/sepses/ontology/nist#title> "Visitor Control" .
+<https://w3id.org/sepses/resource/nist/control/pe-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-8> <https://w3id.org/sepses/ontology/nist#id> "pe-8" .
+<https://w3id.org/sepses/resource/nist/control/pe-8> <https://w3id.org/sepses/ontology/nist#title> "Visitor Access Records" .
+<https://w3id.org/sepses/resource/nist/control/pe-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pe-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pe-9> <https://w3id.org/sepses/ontology/nist#id> "pe-9" .
+<https://w3id.org/sepses/resource/nist/control/pe-9> <https://w3id.org/sepses/ontology/nist#title> "Power Equipment and Cabling" .
+<https://w3id.org/sepses/resource/nist/control/pl-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-1> <https://w3id.org/sepses/ontology/nist#id> "pl-1" .
+<https://w3id.org/sepses/resource/nist/control/pl-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/pl-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-10> <https://w3id.org/sepses/ontology/nist#id> "pl-10" .
+<https://w3id.org/sepses/resource/nist/control/pl-10> <https://w3id.org/sepses/ontology/nist#title> "Baseline Selection" .
+<https://w3id.org/sepses/resource/nist/control/pl-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-11> <https://w3id.org/sepses/ontology/nist#id> "pl-11" .
+<https://w3id.org/sepses/resource/nist/control/pl-11> <https://w3id.org/sepses/ontology/nist#title> "Baseline Tailoring" .
+<https://w3id.org/sepses/resource/nist/control/pl-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-2> <https://w3id.org/sepses/ontology/nist#id> "pl-2" .
+<https://w3id.org/sepses/resource/nist/control/pl-2> <https://w3id.org/sepses/ontology/nist#title> "System Security and Privacy Plans" .
+<https://w3id.org/sepses/resource/nist/control/pl-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-3> <https://w3id.org/sepses/ontology/nist#id> "pl-3" .
+<https://w3id.org/sepses/resource/nist/control/pl-3> <https://w3id.org/sepses/ontology/nist#title> "System Security Plan Update" .
+<https://w3id.org/sepses/resource/nist/control/pl-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-4> <https://w3id.org/sepses/ontology/nist#id> "pl-4" .
+<https://w3id.org/sepses/resource/nist/control/pl-4> <https://w3id.org/sepses/ontology/nist#title> "Rules of Behavior" .
+<https://w3id.org/sepses/resource/nist/control/pl-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-5> <https://w3id.org/sepses/ontology/nist#id> "pl-5" .
+<https://w3id.org/sepses/resource/nist/control/pl-5> <https://w3id.org/sepses/ontology/nist#title> "Privacy Impact Assessment" .
+<https://w3id.org/sepses/resource/nist/control/pl-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-6> <https://w3id.org/sepses/ontology/nist#id> "pl-6" .
+<https://w3id.org/sepses/resource/nist/control/pl-6> <https://w3id.org/sepses/ontology/nist#title> "Security-related Activity Planning" .
+<https://w3id.org/sepses/resource/nist/control/pl-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-7> <https://w3id.org/sepses/ontology/nist#id> "pl-7" .
+<https://w3id.org/sepses/resource/nist/control/pl-7> <https://w3id.org/sepses/ontology/nist#title> "Concept of Operations" .
+<https://w3id.org/sepses/resource/nist/control/pl-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-8> <https://w3id.org/sepses/ontology/nist#id> "pl-8" .
+<https://w3id.org/sepses/resource/nist/control/pl-8> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Architectures" .
+<https://w3id.org/sepses/resource/nist/control/pl-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pl-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pl-9> <https://w3id.org/sepses/ontology/nist#id> "pl-9" .
+<https://w3id.org/sepses/resource/nist/control/pl-9> <https://w3id.org/sepses/ontology/nist#title> "Central Management" .
+<https://w3id.org/sepses/resource/nist/control/pm-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-1> <https://w3id.org/sepses/ontology/nist#id> "pm-1" .
+<https://w3id.org/sepses/resource/nist/control/pm-1> <https://w3id.org/sepses/ontology/nist#title> "Information Security Program Plan" .
+<https://w3id.org/sepses/resource/nist/control/pm-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-10> <https://w3id.org/sepses/ontology/nist#id> "pm-10" .
+<https://w3id.org/sepses/resource/nist/control/pm-10> <https://w3id.org/sepses/ontology/nist#title> "Authorization Process" .
+<https://w3id.org/sepses/resource/nist/control/pm-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-11> <https://w3id.org/sepses/ontology/nist#id> "pm-11" .
+<https://w3id.org/sepses/resource/nist/control/pm-11> <https://w3id.org/sepses/ontology/nist#title> "Mission and Business Process Definition" .
+<https://w3id.org/sepses/resource/nist/control/pm-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-12> <https://w3id.org/sepses/ontology/nist#id> "pm-12" .
+<https://w3id.org/sepses/resource/nist/control/pm-12> <https://w3id.org/sepses/ontology/nist#title> "Insider Threat Program" .
+<https://w3id.org/sepses/resource/nist/control/pm-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-13> <https://w3id.org/sepses/ontology/nist#id> "pm-13" .
+<https://w3id.org/sepses/resource/nist/control/pm-13> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Workforce" .
+<https://w3id.org/sepses/resource/nist/control/pm-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-14> <https://w3id.org/sepses/ontology/nist#id> "pm-14" .
+<https://w3id.org/sepses/resource/nist/control/pm-14> <https://w3id.org/sepses/ontology/nist#title> "Testing, Training, and Monitoring" .
+<https://w3id.org/sepses/resource/nist/control/pm-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-15> <https://w3id.org/sepses/ontology/nist#id> "pm-15" .
+<https://w3id.org/sepses/resource/nist/control/pm-15> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Groups and Associations" .
+<https://w3id.org/sepses/resource/nist/control/pm-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-16> <https://w3id.org/sepses/ontology/nist#id> "pm-16" .
+<https://w3id.org/sepses/resource/nist/control/pm-16> <https://w3id.org/sepses/ontology/nist#title> "Threat Awareness Program" .
+<https://w3id.org/sepses/resource/nist/control/pm-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-17> <https://w3id.org/sepses/ontology/nist#id> "pm-17" .
+<https://w3id.org/sepses/resource/nist/control/pm-17> <https://w3id.org/sepses/ontology/nist#title> "Protecting Controlled Unclassified Information on External Systems" .
+<https://w3id.org/sepses/resource/nist/control/pm-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-18> <https://w3id.org/sepses/ontology/nist#id> "pm-18" .
+<https://w3id.org/sepses/resource/nist/control/pm-18> <https://w3id.org/sepses/ontology/nist#title> "Privacy Program Plan" .
+<https://w3id.org/sepses/resource/nist/control/pm-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-19> <https://w3id.org/sepses/ontology/nist#id> "pm-19" .
+<https://w3id.org/sepses/resource/nist/control/pm-19> <https://w3id.org/sepses/ontology/nist#title> "Privacy Program Leadership Role" .
+<https://w3id.org/sepses/resource/nist/control/pm-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-2> <https://w3id.org/sepses/ontology/nist#id> "pm-2" .
+<https://w3id.org/sepses/resource/nist/control/pm-2> <https://w3id.org/sepses/ontology/nist#title> "Information Security Program Leadership Role" .
+<https://w3id.org/sepses/resource/nist/control/pm-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-20> <https://w3id.org/sepses/ontology/nist#id> "pm-20" .
+<https://w3id.org/sepses/resource/nist/control/pm-20> <https://w3id.org/sepses/ontology/nist#title> "Dissemination of Privacy Program Information" .
+<https://w3id.org/sepses/resource/nist/control/pm-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-21> <https://w3id.org/sepses/ontology/nist#id> "pm-21" .
+<https://w3id.org/sepses/resource/nist/control/pm-21> <https://w3id.org/sepses/ontology/nist#title> "Accounting of Disclosures" .
+<https://w3id.org/sepses/resource/nist/control/pm-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-22> <https://w3id.org/sepses/ontology/nist#id> "pm-22" .
+<https://w3id.org/sepses/resource/nist/control/pm-22> <https://w3id.org/sepses/ontology/nist#title> "Personally Identifiable Information Quality Management" .
+<https://w3id.org/sepses/resource/nist/control/pm-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-23> <https://w3id.org/sepses/ontology/nist#id> "pm-23" .
+<https://w3id.org/sepses/resource/nist/control/pm-23> <https://w3id.org/sepses/ontology/nist#title> "Data Governance Body" .
+<https://w3id.org/sepses/resource/nist/control/pm-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-24> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-24> <https://w3id.org/sepses/ontology/nist#id> "pm-24" .
+<https://w3id.org/sepses/resource/nist/control/pm-24> <https://w3id.org/sepses/ontology/nist#title> "Data Integrity Board" .
+<https://w3id.org/sepses/resource/nist/control/pm-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-25> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-25> <https://w3id.org/sepses/ontology/nist#id> "pm-25" .
+<https://w3id.org/sepses/resource/nist/control/pm-25> <https://w3id.org/sepses/ontology/nist#title> "Minimization of Personally Identifiable Information Used in Testing, Training, and Research" .
+<https://w3id.org/sepses/resource/nist/control/pm-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-26> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-26> <https://w3id.org/sepses/ontology/nist#id> "pm-26" .
+<https://w3id.org/sepses/resource/nist/control/pm-26> <https://w3id.org/sepses/ontology/nist#title> "Complaint Management" .
+<https://w3id.org/sepses/resource/nist/control/pm-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-27> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-27> <https://w3id.org/sepses/ontology/nist#id> "pm-27" .
+<https://w3id.org/sepses/resource/nist/control/pm-27> <https://w3id.org/sepses/ontology/nist#title> "Privacy Reporting" .
+<https://w3id.org/sepses/resource/nist/control/pm-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-28> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-28> <https://w3id.org/sepses/ontology/nist#id> "pm-28" .
+<https://w3id.org/sepses/resource/nist/control/pm-28> <https://w3id.org/sepses/ontology/nist#title> "Risk Framing" .
+<https://w3id.org/sepses/resource/nist/control/pm-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-29> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-29> <https://w3id.org/sepses/ontology/nist#id> "pm-29" .
+<https://w3id.org/sepses/resource/nist/control/pm-29> <https://w3id.org/sepses/ontology/nist#title> "Risk Management Program Leadership Roles" .
+<https://w3id.org/sepses/resource/nist/control/pm-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-3> <https://w3id.org/sepses/ontology/nist#id> "pm-3" .
+<https://w3id.org/sepses/resource/nist/control/pm-3> <https://w3id.org/sepses/ontology/nist#title> "Information Security and Privacy Resources" .
+<https://w3id.org/sepses/resource/nist/control/pm-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-30> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-30> <https://w3id.org/sepses/ontology/nist#id> "pm-30" .
+<https://w3id.org/sepses/resource/nist/control/pm-30> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Risk Management Strategy" .
+<https://w3id.org/sepses/resource/nist/control/pm-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-31> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-31> <https://w3id.org/sepses/ontology/nist#id> "pm-31" .
+<https://w3id.org/sepses/resource/nist/control/pm-31> <https://w3id.org/sepses/ontology/nist#title> "Continuous Monitoring Strategy" .
+<https://w3id.org/sepses/resource/nist/control/pm-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-32> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-32> <https://w3id.org/sepses/ontology/nist#id> "pm-32" .
+<https://w3id.org/sepses/resource/nist/control/pm-32> <https://w3id.org/sepses/ontology/nist#title> "Purposing" .
+<https://w3id.org/sepses/resource/nist/control/pm-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-4> <https://w3id.org/sepses/ontology/nist#id> "pm-4" .
+<https://w3id.org/sepses/resource/nist/control/pm-4> <https://w3id.org/sepses/ontology/nist#title> "Plan of Action and Milestones Process" .
+<https://w3id.org/sepses/resource/nist/control/pm-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-5> <https://w3id.org/sepses/ontology/nist#id> "pm-5" .
+<https://w3id.org/sepses/resource/nist/control/pm-5> <https://w3id.org/sepses/ontology/nist#title> "System Inventory" .
+<https://w3id.org/sepses/resource/nist/control/pm-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-6> <https://w3id.org/sepses/ontology/nist#id> "pm-6" .
+<https://w3id.org/sepses/resource/nist/control/pm-6> <https://w3id.org/sepses/ontology/nist#title> "Measures of Performance" .
+<https://w3id.org/sepses/resource/nist/control/pm-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-7> <https://w3id.org/sepses/ontology/nist#id> "pm-7" .
+<https://w3id.org/sepses/resource/nist/control/pm-7> <https://w3id.org/sepses/ontology/nist#title> "Enterprise Architecture" .
+<https://w3id.org/sepses/resource/nist/control/pm-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-8> <https://w3id.org/sepses/ontology/nist#id> "pm-8" .
+<https://w3id.org/sepses/resource/nist/control/pm-8> <https://w3id.org/sepses/ontology/nist#title> "Critical Infrastructure Plan" .
+<https://w3id.org/sepses/resource/nist/control/pm-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pm-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pm-9> <https://w3id.org/sepses/ontology/nist#id> "pm-9" .
+<https://w3id.org/sepses/resource/nist/control/pm-9> <https://w3id.org/sepses/ontology/nist#title> "Risk Management Strategy" .
+<https://w3id.org/sepses/resource/nist/control/ps-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-1> <https://w3id.org/sepses/ontology/nist#id> "ps-1" .
+<https://w3id.org/sepses/resource/nist/control/ps-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ps-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-2> <https://w3id.org/sepses/ontology/nist#id> "ps-2" .
+<https://w3id.org/sepses/resource/nist/control/ps-2> <https://w3id.org/sepses/ontology/nist#title> "Position Risk Designation" .
+<https://w3id.org/sepses/resource/nist/control/ps-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-3> <https://w3id.org/sepses/ontology/nist#id> "ps-3" .
+<https://w3id.org/sepses/resource/nist/control/ps-3> <https://w3id.org/sepses/ontology/nist#title> "Personnel Screening" .
+<https://w3id.org/sepses/resource/nist/control/ps-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-4> <https://w3id.org/sepses/ontology/nist#id> "ps-4" .
+<https://w3id.org/sepses/resource/nist/control/ps-4> <https://w3id.org/sepses/ontology/nist#title> "Personnel Termination" .
+<https://w3id.org/sepses/resource/nist/control/ps-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-5> <https://w3id.org/sepses/ontology/nist#id> "ps-5" .
+<https://w3id.org/sepses/resource/nist/control/ps-5> <https://w3id.org/sepses/ontology/nist#title> "Personnel Transfer" .
+<https://w3id.org/sepses/resource/nist/control/ps-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-6> <https://w3id.org/sepses/ontology/nist#id> "ps-6" .
+<https://w3id.org/sepses/resource/nist/control/ps-6> <https://w3id.org/sepses/ontology/nist#title> "Access Agreements" .
+<https://w3id.org/sepses/resource/nist/control/ps-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-7> <https://w3id.org/sepses/ontology/nist#id> "ps-7" .
+<https://w3id.org/sepses/resource/nist/control/ps-7> <https://w3id.org/sepses/ontology/nist#title> "External Personnel Security" .
+<https://w3id.org/sepses/resource/nist/control/ps-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-8> <https://w3id.org/sepses/ontology/nist#id> "ps-8" .
+<https://w3id.org/sepses/resource/nist/control/ps-8> <https://w3id.org/sepses/ontology/nist#title> "Personnel Sanctions" .
+<https://w3id.org/sepses/resource/nist/control/ps-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ps-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ps-9> <https://w3id.org/sepses/ontology/nist#id> "ps-9" .
+<https://w3id.org/sepses/resource/nist/control/ps-9> <https://w3id.org/sepses/ontology/nist#title> "Position Descriptions" .
+<https://w3id.org/sepses/resource/nist/control/pt-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-1> <https://w3id.org/sepses/ontology/nist#id> "pt-1" .
+<https://w3id.org/sepses/resource/nist/control/pt-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/pt-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-2> <https://w3id.org/sepses/ontology/nist#id> "pt-2" .
+<https://w3id.org/sepses/resource/nist/control/pt-2> <https://w3id.org/sepses/ontology/nist#title> "Authority to Process Personally Identifiable Information" .
+<https://w3id.org/sepses/resource/nist/control/pt-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-3> <https://w3id.org/sepses/ontology/nist#id> "pt-3" .
+<https://w3id.org/sepses/resource/nist/control/pt-3> <https://w3id.org/sepses/ontology/nist#title> "Personally Identifiable Information Processing Purposes" .
+<https://w3id.org/sepses/resource/nist/control/pt-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-4> <https://w3id.org/sepses/ontology/nist#id> "pt-4" .
+<https://w3id.org/sepses/resource/nist/control/pt-4> <https://w3id.org/sepses/ontology/nist#title> "Consent" .
+<https://w3id.org/sepses/resource/nist/control/pt-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-5> <https://w3id.org/sepses/ontology/nist#id> "pt-5" .
+<https://w3id.org/sepses/resource/nist/control/pt-5> <https://w3id.org/sepses/ontology/nist#title> "Privacy Notice" .
+<https://w3id.org/sepses/resource/nist/control/pt-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-6> <https://w3id.org/sepses/ontology/nist#id> "pt-6" .
+<https://w3id.org/sepses/resource/nist/control/pt-6> <https://w3id.org/sepses/ontology/nist#title> "System of Records Notice" .
+<https://w3id.org/sepses/resource/nist/control/pt-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-7> <https://w3id.org/sepses/ontology/nist#id> "pt-7" .
+<https://w3id.org/sepses/resource/nist/control/pt-7> <https://w3id.org/sepses/ontology/nist#title> "Specific Categories of Personally Identifiable Information" .
+<https://w3id.org/sepses/resource/nist/control/pt-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/pt-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/pt-8> <https://w3id.org/sepses/ontology/nist#id> "pt-8" .
+<https://w3id.org/sepses/resource/nist/control/pt-8> <https://w3id.org/sepses/ontology/nist#title> "Computer Matching Requirements" .
+<https://w3id.org/sepses/resource/nist/control/ra-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-1> <https://w3id.org/sepses/ontology/nist#id> "ra-1" .
+<https://w3id.org/sepses/resource/nist/control/ra-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/ra-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-10> <https://w3id.org/sepses/ontology/nist#id> "ra-10" .
+<https://w3id.org/sepses/resource/nist/control/ra-10> <https://w3id.org/sepses/ontology/nist#title> "Threat Hunting" .
+<https://w3id.org/sepses/resource/nist/control/ra-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-2> <https://w3id.org/sepses/ontology/nist#id> "ra-2" .
+<https://w3id.org/sepses/resource/nist/control/ra-2> <https://w3id.org/sepses/ontology/nist#title> "Security Categorization" .
+<https://w3id.org/sepses/resource/nist/control/ra-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-3> <https://w3id.org/sepses/ontology/nist#id> "ra-3" .
+<https://w3id.org/sepses/resource/nist/control/ra-3> <https://w3id.org/sepses/ontology/nist#title> "Risk Assessment" .
+<https://w3id.org/sepses/resource/nist/control/ra-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-4> <https://w3id.org/sepses/ontology/nist#id> "ra-4" .
+<https://w3id.org/sepses/resource/nist/control/ra-4> <https://w3id.org/sepses/ontology/nist#title> "Risk Assessment Update" .
+<https://w3id.org/sepses/resource/nist/control/ra-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-5> <https://w3id.org/sepses/ontology/nist#id> "ra-5" .
+<https://w3id.org/sepses/resource/nist/control/ra-5> <https://w3id.org/sepses/ontology/nist#title> "Vulnerability Monitoring and Scanning" .
+<https://w3id.org/sepses/resource/nist/control/ra-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-6> <https://w3id.org/sepses/ontology/nist#id> "ra-6" .
+<https://w3id.org/sepses/resource/nist/control/ra-6> <https://w3id.org/sepses/ontology/nist#title> "Technical Surveillance Countermeasures Survey" .
+<https://w3id.org/sepses/resource/nist/control/ra-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-7> <https://w3id.org/sepses/ontology/nist#id> "ra-7" .
+<https://w3id.org/sepses/resource/nist/control/ra-7> <https://w3id.org/sepses/ontology/nist#title> "Risk Response" .
+<https://w3id.org/sepses/resource/nist/control/ra-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-8> <https://w3id.org/sepses/ontology/nist#id> "ra-8" .
+<https://w3id.org/sepses/resource/nist/control/ra-8> <https://w3id.org/sepses/ontology/nist#title> "Privacy Impact Assessments" .
+<https://w3id.org/sepses/resource/nist/control/ra-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/ra-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/ra-9> <https://w3id.org/sepses/ontology/nist#id> "ra-9" .
+<https://w3id.org/sepses/resource/nist/control/ra-9> <https://w3id.org/sepses/ontology/nist#title> "Criticality Analysis" .
+<https://w3id.org/sepses/resource/nist/control/sa-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-1> <https://w3id.org/sepses/ontology/nist#id> "sa-1" .
+<https://w3id.org/sepses/resource/nist/control/sa-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/sa-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-10> <https://w3id.org/sepses/ontology/nist#id> "sa-10" .
+<https://w3id.org/sepses/resource/nist/control/sa-10> <https://w3id.org/sepses/ontology/nist#title> "Developer Configuration Management" .
+<https://w3id.org/sepses/resource/nist/control/sa-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-11> <https://w3id.org/sepses/ontology/nist#id> "sa-11" .
+<https://w3id.org/sepses/resource/nist/control/sa-11> <https://w3id.org/sepses/ontology/nist#title> "Developer Testing and Evaluation" .
+<https://w3id.org/sepses/resource/nist/control/sa-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-12> <https://w3id.org/sepses/ontology/nist#id> "sa-12" .
+<https://w3id.org/sepses/resource/nist/control/sa-12> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Protection" .
+<https://w3id.org/sepses/resource/nist/control/sa-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-13> <https://w3id.org/sepses/ontology/nist#id> "sa-13" .
+<https://w3id.org/sepses/resource/nist/control/sa-13> <https://w3id.org/sepses/ontology/nist#title> "Trustworthiness" .
+<https://w3id.org/sepses/resource/nist/control/sa-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-14> <https://w3id.org/sepses/ontology/nist#id> "sa-14" .
+<https://w3id.org/sepses/resource/nist/control/sa-14> <https://w3id.org/sepses/ontology/nist#title> "Criticality Analysis" .
+<https://w3id.org/sepses/resource/nist/control/sa-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-15> <https://w3id.org/sepses/ontology/nist#id> "sa-15" .
+<https://w3id.org/sepses/resource/nist/control/sa-15> <https://w3id.org/sepses/ontology/nist#title> "Development Process, Standards, and Tools" .
+<https://w3id.org/sepses/resource/nist/control/sa-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-16> <https://w3id.org/sepses/ontology/nist#id> "sa-16" .
+<https://w3id.org/sepses/resource/nist/control/sa-16> <https://w3id.org/sepses/ontology/nist#title> "Developer-provided Training" .
+<https://w3id.org/sepses/resource/nist/control/sa-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-17> <https://w3id.org/sepses/ontology/nist#id> "sa-17" .
+<https://w3id.org/sepses/resource/nist/control/sa-17> <https://w3id.org/sepses/ontology/nist#title> "Developer Security and Privacy Architecture and Design" .
+<https://w3id.org/sepses/resource/nist/control/sa-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-18> <https://w3id.org/sepses/ontology/nist#id> "sa-18" .
+<https://w3id.org/sepses/resource/nist/control/sa-18> <https://w3id.org/sepses/ontology/nist#title> "Tamper Resistance and Detection" .
+<https://w3id.org/sepses/resource/nist/control/sa-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-19> <https://w3id.org/sepses/ontology/nist#id> "sa-19" .
+<https://w3id.org/sepses/resource/nist/control/sa-19> <https://w3id.org/sepses/ontology/nist#title> "Component Authenticity" .
+<https://w3id.org/sepses/resource/nist/control/sa-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-2> <https://w3id.org/sepses/ontology/nist#id> "sa-2" .
+<https://w3id.org/sepses/resource/nist/control/sa-2> <https://w3id.org/sepses/ontology/nist#title> "Allocation of Resources" .
+<https://w3id.org/sepses/resource/nist/control/sa-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-20> <https://w3id.org/sepses/ontology/nist#id> "sa-20" .
+<https://w3id.org/sepses/resource/nist/control/sa-20> <https://w3id.org/sepses/ontology/nist#title> "Customized Development of Critical Components" .
+<https://w3id.org/sepses/resource/nist/control/sa-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-21> <https://w3id.org/sepses/ontology/nist#id> "sa-21" .
+<https://w3id.org/sepses/resource/nist/control/sa-21> <https://w3id.org/sepses/ontology/nist#title> "Developer Screening" .
+<https://w3id.org/sepses/resource/nist/control/sa-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-22> <https://w3id.org/sepses/ontology/nist#id> "sa-22" .
+<https://w3id.org/sepses/resource/nist/control/sa-22> <https://w3id.org/sepses/ontology/nist#title> "Unsupported System Components" .
+<https://w3id.org/sepses/resource/nist/control/sa-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-23> <https://w3id.org/sepses/ontology/nist#id> "sa-23" .
+<https://w3id.org/sepses/resource/nist/control/sa-23> <https://w3id.org/sepses/ontology/nist#title> "Specialization" .
+<https://w3id.org/sepses/resource/nist/control/sa-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-24> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-24> <https://w3id.org/sepses/ontology/nist#id> "sa-24" .
+<https://w3id.org/sepses/resource/nist/control/sa-24> <https://w3id.org/sepses/ontology/nist#title> "Design For Cyber Resiliency" .
+<https://w3id.org/sepses/resource/nist/control/sa-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-3> <https://w3id.org/sepses/ontology/nist#id> "sa-3" .
+<https://w3id.org/sepses/resource/nist/control/sa-3> <https://w3id.org/sepses/ontology/nist#title> "System Development Life Cycle" .
+<https://w3id.org/sepses/resource/nist/control/sa-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-4> <https://w3id.org/sepses/ontology/nist#id> "sa-4" .
+<https://w3id.org/sepses/resource/nist/control/sa-4> <https://w3id.org/sepses/ontology/nist#title> "Acquisition Process" .
+<https://w3id.org/sepses/resource/nist/control/sa-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-5> <https://w3id.org/sepses/ontology/nist#id> "sa-5" .
+<https://w3id.org/sepses/resource/nist/control/sa-5> <https://w3id.org/sepses/ontology/nist#title> "System Documentation" .
+<https://w3id.org/sepses/resource/nist/control/sa-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-6> <https://w3id.org/sepses/ontology/nist#id> "sa-6" .
+<https://w3id.org/sepses/resource/nist/control/sa-6> <https://w3id.org/sepses/ontology/nist#title> "Software Usage Restrictions" .
+<https://w3id.org/sepses/resource/nist/control/sa-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-7> <https://w3id.org/sepses/ontology/nist#id> "sa-7" .
+<https://w3id.org/sepses/resource/nist/control/sa-7> <https://w3id.org/sepses/ontology/nist#title> "User-installed Software" .
+<https://w3id.org/sepses/resource/nist/control/sa-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-8> <https://w3id.org/sepses/ontology/nist#id> "sa-8" .
+<https://w3id.org/sepses/resource/nist/control/sa-8> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Engineering Principles" .
+<https://w3id.org/sepses/resource/nist/control/sa-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sa-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sa-9> <https://w3id.org/sepses/ontology/nist#id> "sa-9" .
+<https://w3id.org/sepses/resource/nist/control/sa-9> <https://w3id.org/sepses/ontology/nist#title> "External System Services" .
+<https://w3id.org/sepses/resource/nist/control/sc-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-1> <https://w3id.org/sepses/ontology/nist#id> "sc-1" .
+<https://w3id.org/sepses/resource/nist/control/sc-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/sc-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-10> <https://w3id.org/sepses/ontology/nist#id> "sc-10" .
+<https://w3id.org/sepses/resource/nist/control/sc-10> <https://w3id.org/sepses/ontology/nist#title> "Network Disconnect" .
+<https://w3id.org/sepses/resource/nist/control/sc-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-11> <https://w3id.org/sepses/ontology/nist#id> "sc-11" .
+<https://w3id.org/sepses/resource/nist/control/sc-11> <https://w3id.org/sepses/ontology/nist#title> "Trusted Path" .
+<https://w3id.org/sepses/resource/nist/control/sc-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-12> <https://w3id.org/sepses/ontology/nist#id> "sc-12" .
+<https://w3id.org/sepses/resource/nist/control/sc-12> <https://w3id.org/sepses/ontology/nist#title> "Cryptographic Key Establishment and Management" .
+<https://w3id.org/sepses/resource/nist/control/sc-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-13> <https://w3id.org/sepses/ontology/nist#id> "sc-13" .
+<https://w3id.org/sepses/resource/nist/control/sc-13> <https://w3id.org/sepses/ontology/nist#title> "Cryptographic Protection" .
+<https://w3id.org/sepses/resource/nist/control/sc-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-14> <https://w3id.org/sepses/ontology/nist#id> "sc-14" .
+<https://w3id.org/sepses/resource/nist/control/sc-14> <https://w3id.org/sepses/ontology/nist#title> "Public Access Protections" .
+<https://w3id.org/sepses/resource/nist/control/sc-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-15> <https://w3id.org/sepses/ontology/nist#id> "sc-15" .
+<https://w3id.org/sepses/resource/nist/control/sc-15> <https://w3id.org/sepses/ontology/nist#title> "Collaborative Computing Devices and Applications" .
+<https://w3id.org/sepses/resource/nist/control/sc-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-16> <https://w3id.org/sepses/ontology/nist#id> "sc-16" .
+<https://w3id.org/sepses/resource/nist/control/sc-16> <https://w3id.org/sepses/ontology/nist#title> "Transmission of Security and Privacy Attributes" .
+<https://w3id.org/sepses/resource/nist/control/sc-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-17> <https://w3id.org/sepses/ontology/nist#id> "sc-17" .
+<https://w3id.org/sepses/resource/nist/control/sc-17> <https://w3id.org/sepses/ontology/nist#title> "Public Key Infrastructure Certificates" .
+<https://w3id.org/sepses/resource/nist/control/sc-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-18> <https://w3id.org/sepses/ontology/nist#id> "sc-18" .
+<https://w3id.org/sepses/resource/nist/control/sc-18> <https://w3id.org/sepses/ontology/nist#title> "Mobile Code" .
+<https://w3id.org/sepses/resource/nist/control/sc-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-19> <https://w3id.org/sepses/ontology/nist#id> "sc-19" .
+<https://w3id.org/sepses/resource/nist/control/sc-19> <https://w3id.org/sepses/ontology/nist#title> "Voice Over Internet Protocol" .
+<https://w3id.org/sepses/resource/nist/control/sc-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-2> <https://w3id.org/sepses/ontology/nist#id> "sc-2" .
+<https://w3id.org/sepses/resource/nist/control/sc-2> <https://w3id.org/sepses/ontology/nist#title> "Separation of System and User Functionality" .
+<https://w3id.org/sepses/resource/nist/control/sc-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-20> <https://w3id.org/sepses/ontology/nist#id> "sc-20" .
+<https://w3id.org/sepses/resource/nist/control/sc-20> <https://w3id.org/sepses/ontology/nist#title> "Secure Name/Address Resolution Service (Authoritative Source)" .
+<https://w3id.org/sepses/resource/nist/control/sc-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-21> <https://w3id.org/sepses/ontology/nist#id> "sc-21" .
+<https://w3id.org/sepses/resource/nist/control/sc-21> <https://w3id.org/sepses/ontology/nist#title> "Secure Name/Address Resolution Service (Recursive or Caching Resolver)" .
+<https://w3id.org/sepses/resource/nist/control/sc-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-22> <https://w3id.org/sepses/ontology/nist#id> "sc-22" .
+<https://w3id.org/sepses/resource/nist/control/sc-22> <https://w3id.org/sepses/ontology/nist#title> "Architecture and Provisioning for Name/Address Resolution Service" .
+<https://w3id.org/sepses/resource/nist/control/sc-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-23> <https://w3id.org/sepses/ontology/nist#id> "sc-23" .
+<https://w3id.org/sepses/resource/nist/control/sc-23> <https://w3id.org/sepses/ontology/nist#title> "Session Authenticity" .
+<https://w3id.org/sepses/resource/nist/control/sc-24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-24> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-24> <https://w3id.org/sepses/ontology/nist#id> "sc-24" .
+<https://w3id.org/sepses/resource/nist/control/sc-24> <https://w3id.org/sepses/ontology/nist#title> "Fail in Known State" .
+<https://w3id.org/sepses/resource/nist/control/sc-25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-25> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-25> <https://w3id.org/sepses/ontology/nist#id> "sc-25" .
+<https://w3id.org/sepses/resource/nist/control/sc-25> <https://w3id.org/sepses/ontology/nist#title> "Thin Nodes" .
+<https://w3id.org/sepses/resource/nist/control/sc-26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-26> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-26> <https://w3id.org/sepses/ontology/nist#id> "sc-26" .
+<https://w3id.org/sepses/resource/nist/control/sc-26> <https://w3id.org/sepses/ontology/nist#title> "Decoys" .
+<https://w3id.org/sepses/resource/nist/control/sc-27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-27> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-27> <https://w3id.org/sepses/ontology/nist#id> "sc-27" .
+<https://w3id.org/sepses/resource/nist/control/sc-27> <https://w3id.org/sepses/ontology/nist#title> "Platform-independent Applications" .
+<https://w3id.org/sepses/resource/nist/control/sc-28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-28> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-28> <https://w3id.org/sepses/ontology/nist#id> "sc-28" .
+<https://w3id.org/sepses/resource/nist/control/sc-28> <https://w3id.org/sepses/ontology/nist#title> "Protection of Information at Rest" .
+<https://w3id.org/sepses/resource/nist/control/sc-29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-29> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-29> <https://w3id.org/sepses/ontology/nist#id> "sc-29" .
+<https://w3id.org/sepses/resource/nist/control/sc-29> <https://w3id.org/sepses/ontology/nist#title> "Heterogeneity" .
+<https://w3id.org/sepses/resource/nist/control/sc-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-3> <https://w3id.org/sepses/ontology/nist#id> "sc-3" .
+<https://w3id.org/sepses/resource/nist/control/sc-3> <https://w3id.org/sepses/ontology/nist#title> "Security Function Isolation" .
+<https://w3id.org/sepses/resource/nist/control/sc-30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-30> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-30> <https://w3id.org/sepses/ontology/nist#id> "sc-30" .
+<https://w3id.org/sepses/resource/nist/control/sc-30> <https://w3id.org/sepses/ontology/nist#title> "Concealment and Misdirection" .
+<https://w3id.org/sepses/resource/nist/control/sc-31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-31> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-31> <https://w3id.org/sepses/ontology/nist#id> "sc-31" .
+<https://w3id.org/sepses/resource/nist/control/sc-31> <https://w3id.org/sepses/ontology/nist#title> "Covert Channel Analysis" .
+<https://w3id.org/sepses/resource/nist/control/sc-32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-32> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-32> <https://w3id.org/sepses/ontology/nist#id> "sc-32" .
+<https://w3id.org/sepses/resource/nist/control/sc-32> <https://w3id.org/sepses/ontology/nist#title> "System Partitioning" .
+<https://w3id.org/sepses/resource/nist/control/sc-33> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-33> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-33> <https://w3id.org/sepses/ontology/nist#id> "sc-33" .
+<https://w3id.org/sepses/resource/nist/control/sc-33> <https://w3id.org/sepses/ontology/nist#title> "Transmission Preparation Integrity" .
+<https://w3id.org/sepses/resource/nist/control/sc-34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-34> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-34> <https://w3id.org/sepses/ontology/nist#id> "sc-34" .
+<https://w3id.org/sepses/resource/nist/control/sc-34> <https://w3id.org/sepses/ontology/nist#title> "Non-modifiable Executable Programs" .
+<https://w3id.org/sepses/resource/nist/control/sc-35> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-35> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-35> <https://w3id.org/sepses/ontology/nist#id> "sc-35" .
+<https://w3id.org/sepses/resource/nist/control/sc-35> <https://w3id.org/sepses/ontology/nist#title> "External Malicious Code Identification" .
+<https://w3id.org/sepses/resource/nist/control/sc-36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-36> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-36> <https://w3id.org/sepses/ontology/nist#id> "sc-36" .
+<https://w3id.org/sepses/resource/nist/control/sc-36> <https://w3id.org/sepses/ontology/nist#title> "Distributed Processing and Storage" .
+<https://w3id.org/sepses/resource/nist/control/sc-37> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-37> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-37> <https://w3id.org/sepses/ontology/nist#id> "sc-37" .
+<https://w3id.org/sepses/resource/nist/control/sc-37> <https://w3id.org/sepses/ontology/nist#title> "Out-of-band Channels" .
+<https://w3id.org/sepses/resource/nist/control/sc-38> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-38> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-38> <https://w3id.org/sepses/ontology/nist#id> "sc-38" .
+<https://w3id.org/sepses/resource/nist/control/sc-38> <https://w3id.org/sepses/ontology/nist#title> "Operations Security" .
+<https://w3id.org/sepses/resource/nist/control/sc-39> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-39> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-39> <https://w3id.org/sepses/ontology/nist#id> "sc-39" .
+<https://w3id.org/sepses/resource/nist/control/sc-39> <https://w3id.org/sepses/ontology/nist#title> "Process Isolation" .
+<https://w3id.org/sepses/resource/nist/control/sc-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-4> <https://w3id.org/sepses/ontology/nist#id> "sc-4" .
+<https://w3id.org/sepses/resource/nist/control/sc-4> <https://w3id.org/sepses/ontology/nist#title> "Information in Shared System Resources" .
+<https://w3id.org/sepses/resource/nist/control/sc-40> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-40> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-40> <https://w3id.org/sepses/ontology/nist#id> "sc-40" .
+<https://w3id.org/sepses/resource/nist/control/sc-40> <https://w3id.org/sepses/ontology/nist#title> "Wireless Link Protection" .
+<https://w3id.org/sepses/resource/nist/control/sc-41> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-41> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-41> <https://w3id.org/sepses/ontology/nist#id> "sc-41" .
+<https://w3id.org/sepses/resource/nist/control/sc-41> <https://w3id.org/sepses/ontology/nist#title> "Port and I/O Device Access" .
+<https://w3id.org/sepses/resource/nist/control/sc-42> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-42> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-42> <https://w3id.org/sepses/ontology/nist#id> "sc-42" .
+<https://w3id.org/sepses/resource/nist/control/sc-42> <https://w3id.org/sepses/ontology/nist#title> "Sensor Capability and Data" .
+<https://w3id.org/sepses/resource/nist/control/sc-43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-43> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-43> <https://w3id.org/sepses/ontology/nist#id> "sc-43" .
+<https://w3id.org/sepses/resource/nist/control/sc-43> <https://w3id.org/sepses/ontology/nist#title> "Usage Restrictions" .
+<https://w3id.org/sepses/resource/nist/control/sc-44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-44> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-44> <https://w3id.org/sepses/ontology/nist#id> "sc-44" .
+<https://w3id.org/sepses/resource/nist/control/sc-44> <https://w3id.org/sepses/ontology/nist#title> "Detonation Chambers" .
+<https://w3id.org/sepses/resource/nist/control/sc-45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-45> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-45> <https://w3id.org/sepses/ontology/nist#id> "sc-45" .
+<https://w3id.org/sepses/resource/nist/control/sc-45> <https://w3id.org/sepses/ontology/nist#title> "System Time Synchronization" .
+<https://w3id.org/sepses/resource/nist/control/sc-46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-46> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-46> <https://w3id.org/sepses/ontology/nist#id> "sc-46" .
+<https://w3id.org/sepses/resource/nist/control/sc-46> <https://w3id.org/sepses/ontology/nist#title> "Cross Domain Policy Enforcement" .
+<https://w3id.org/sepses/resource/nist/control/sc-47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-47> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-47> <https://w3id.org/sepses/ontology/nist#id> "sc-47" .
+<https://w3id.org/sepses/resource/nist/control/sc-47> <https://w3id.org/sepses/ontology/nist#title> "Alternate Communications Paths" .
+<https://w3id.org/sepses/resource/nist/control/sc-48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-48> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-48> <https://w3id.org/sepses/ontology/nist#id> "sc-48" .
+<https://w3id.org/sepses/resource/nist/control/sc-48> <https://w3id.org/sepses/ontology/nist#title> "Sensor Relocation" .
+<https://w3id.org/sepses/resource/nist/control/sc-49> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-49> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-49> <https://w3id.org/sepses/ontology/nist#id> "sc-49" .
+<https://w3id.org/sepses/resource/nist/control/sc-49> <https://w3id.org/sepses/ontology/nist#title> "Hardware-enforced Separation and Policy Enforcement" .
+<https://w3id.org/sepses/resource/nist/control/sc-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-5> <https://w3id.org/sepses/ontology/nist#id> "sc-5" .
+<https://w3id.org/sepses/resource/nist/control/sc-5> <https://w3id.org/sepses/ontology/nist#title> "Denial-of-service Protection" .
+<https://w3id.org/sepses/resource/nist/control/sc-50> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-50> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-50> <https://w3id.org/sepses/ontology/nist#id> "sc-50" .
+<https://w3id.org/sepses/resource/nist/control/sc-50> <https://w3id.org/sepses/ontology/nist#title> "Software-enforced Separation and Policy Enforcement" .
+<https://w3id.org/sepses/resource/nist/control/sc-51> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-51> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-51> <https://w3id.org/sepses/ontology/nist#id> "sc-51" .
+<https://w3id.org/sepses/resource/nist/control/sc-51> <https://w3id.org/sepses/ontology/nist#title> "Hardware-based Protection" .
+<https://w3id.org/sepses/resource/nist/control/sc-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-6> <https://w3id.org/sepses/ontology/nist#id> "sc-6" .
+<https://w3id.org/sepses/resource/nist/control/sc-6> <https://w3id.org/sepses/ontology/nist#title> "Resource Availability" .
+<https://w3id.org/sepses/resource/nist/control/sc-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-7> <https://w3id.org/sepses/ontology/nist#id> "sc-7" .
+<https://w3id.org/sepses/resource/nist/control/sc-7> <https://w3id.org/sepses/ontology/nist#title> "Boundary Protection" .
+<https://w3id.org/sepses/resource/nist/control/sc-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-8> <https://w3id.org/sepses/ontology/nist#id> "sc-8" .
+<https://w3id.org/sepses/resource/nist/control/sc-8> <https://w3id.org/sepses/ontology/nist#title> "Transmission Confidentiality and Integrity" .
+<https://w3id.org/sepses/resource/nist/control/sc-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sc-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sc-9> <https://w3id.org/sepses/ontology/nist#id> "sc-9" .
+<https://w3id.org/sepses/resource/nist/control/sc-9> <https://w3id.org/sepses/ontology/nist#title> "Transmission Confidentiality" .
+<https://w3id.org/sepses/resource/nist/control/si-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-1> <https://w3id.org/sepses/ontology/nist#id> "si-1" .
+<https://w3id.org/sepses/resource/nist/control/si-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/si-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-10> <https://w3id.org/sepses/ontology/nist#id> "si-10" .
+<https://w3id.org/sepses/resource/nist/control/si-10> <https://w3id.org/sepses/ontology/nist#title> "Information Input Validation" .
+<https://w3id.org/sepses/resource/nist/control/si-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-11> <https://w3id.org/sepses/ontology/nist#id> "si-11" .
+<https://w3id.org/sepses/resource/nist/control/si-11> <https://w3id.org/sepses/ontology/nist#title> "Error Handling" .
+<https://w3id.org/sepses/resource/nist/control/si-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-12> <https://w3id.org/sepses/ontology/nist#id> "si-12" .
+<https://w3id.org/sepses/resource/nist/control/si-12> <https://w3id.org/sepses/ontology/nist#title> "Information Management and Retention" .
+<https://w3id.org/sepses/resource/nist/control/si-13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-13> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-13> <https://w3id.org/sepses/ontology/nist#id> "si-13" .
+<https://w3id.org/sepses/resource/nist/control/si-13> <https://w3id.org/sepses/ontology/nist#title> "Predictable Failure Prevention" .
+<https://w3id.org/sepses/resource/nist/control/si-14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-14> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-14> <https://w3id.org/sepses/ontology/nist#id> "si-14" .
+<https://w3id.org/sepses/resource/nist/control/si-14> <https://w3id.org/sepses/ontology/nist#title> "Non-persistence" .
+<https://w3id.org/sepses/resource/nist/control/si-15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-15> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-15> <https://w3id.org/sepses/ontology/nist#id> "si-15" .
+<https://w3id.org/sepses/resource/nist/control/si-15> <https://w3id.org/sepses/ontology/nist#title> "Information Output Filtering" .
+<https://w3id.org/sepses/resource/nist/control/si-16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-16> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-16> <https://w3id.org/sepses/ontology/nist#id> "si-16" .
+<https://w3id.org/sepses/resource/nist/control/si-16> <https://w3id.org/sepses/ontology/nist#title> "Memory Protection" .
+<https://w3id.org/sepses/resource/nist/control/si-17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-17> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-17> <https://w3id.org/sepses/ontology/nist#id> "si-17" .
+<https://w3id.org/sepses/resource/nist/control/si-17> <https://w3id.org/sepses/ontology/nist#title> "Fail-safe Procedures" .
+<https://w3id.org/sepses/resource/nist/control/si-18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-18> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-18> <https://w3id.org/sepses/ontology/nist#id> "si-18" .
+<https://w3id.org/sepses/resource/nist/control/si-18> <https://w3id.org/sepses/ontology/nist#title> "Personally Identifiable Information Quality Operations" .
+<https://w3id.org/sepses/resource/nist/control/si-19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-19> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-19> <https://w3id.org/sepses/ontology/nist#id> "si-19" .
+<https://w3id.org/sepses/resource/nist/control/si-19> <https://w3id.org/sepses/ontology/nist#title> "De-identification" .
+<https://w3id.org/sepses/resource/nist/control/si-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-2> <https://w3id.org/sepses/ontology/nist#id> "si-2" .
+<https://w3id.org/sepses/resource/nist/control/si-2> <https://w3id.org/sepses/ontology/nist#title> "Flaw Remediation" .
+<https://w3id.org/sepses/resource/nist/control/si-20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-20> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-20> <https://w3id.org/sepses/ontology/nist#id> "si-20" .
+<https://w3id.org/sepses/resource/nist/control/si-20> <https://w3id.org/sepses/ontology/nist#title> "Tainting" .
+<https://w3id.org/sepses/resource/nist/control/si-21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-21> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-21> <https://w3id.org/sepses/ontology/nist#id> "si-21" .
+<https://w3id.org/sepses/resource/nist/control/si-21> <https://w3id.org/sepses/ontology/nist#title> "Information Refresh" .
+<https://w3id.org/sepses/resource/nist/control/si-22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-22> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-22> <https://w3id.org/sepses/ontology/nist#id> "si-22" .
+<https://w3id.org/sepses/resource/nist/control/si-22> <https://w3id.org/sepses/ontology/nist#title> "Information Diversity" .
+<https://w3id.org/sepses/resource/nist/control/si-23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-23> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-23> <https://w3id.org/sepses/ontology/nist#id> "si-23" .
+<https://w3id.org/sepses/resource/nist/control/si-23> <https://w3id.org/sepses/ontology/nist#title> "Information Fragmentation" .
+<https://w3id.org/sepses/resource/nist/control/si-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-3> <https://w3id.org/sepses/ontology/nist#id> "si-3" .
+<https://w3id.org/sepses/resource/nist/control/si-3> <https://w3id.org/sepses/ontology/nist#title> "Malicious Code Protection" .
+<https://w3id.org/sepses/resource/nist/control/si-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-4> <https://w3id.org/sepses/ontology/nist#id> "si-4" .
+<https://w3id.org/sepses/resource/nist/control/si-4> <https://w3id.org/sepses/ontology/nist#title> "System Monitoring" .
+<https://w3id.org/sepses/resource/nist/control/si-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-5> <https://w3id.org/sepses/ontology/nist#id> "si-5" .
+<https://w3id.org/sepses/resource/nist/control/si-5> <https://w3id.org/sepses/ontology/nist#title> "Security Alerts, Advisories, and Directives" .
+<https://w3id.org/sepses/resource/nist/control/si-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-6> <https://w3id.org/sepses/ontology/nist#id> "si-6" .
+<https://w3id.org/sepses/resource/nist/control/si-6> <https://w3id.org/sepses/ontology/nist#title> "Security and Privacy Function Verification" .
+<https://w3id.org/sepses/resource/nist/control/si-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-7> <https://w3id.org/sepses/ontology/nist#id> "si-7" .
+<https://w3id.org/sepses/resource/nist/control/si-7> <https://w3id.org/sepses/ontology/nist#title> "Software, Firmware, and Information Integrity" .
+<https://w3id.org/sepses/resource/nist/control/si-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-8> <https://w3id.org/sepses/ontology/nist#id> "si-8" .
+<https://w3id.org/sepses/resource/nist/control/si-8> <https://w3id.org/sepses/ontology/nist#title> "Spam Protection" .
+<https://w3id.org/sepses/resource/nist/control/si-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/si-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/si-9> <https://w3id.org/sepses/ontology/nist#id> "si-9" .
+<https://w3id.org/sepses/resource/nist/control/si-9> <https://w3id.org/sepses/ontology/nist#title> "Information Input Restrictions" .
+<https://w3id.org/sepses/resource/nist/control/sr-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-1> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-1> <https://w3id.org/sepses/ontology/nist#id> "sr-1" .
+<https://w3id.org/sepses/resource/nist/control/sr-1> <https://w3id.org/sepses/ontology/nist#title> "Policy and Procedures" .
+<https://w3id.org/sepses/resource/nist/control/sr-10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-10> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-10> <https://w3id.org/sepses/ontology/nist#id> "sr-10" .
+<https://w3id.org/sepses/resource/nist/control/sr-10> <https://w3id.org/sepses/ontology/nist#title> "Inspection of Systems or Components" .
+<https://w3id.org/sepses/resource/nist/control/sr-11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-11> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-11> <https://w3id.org/sepses/ontology/nist#id> "sr-11" .
+<https://w3id.org/sepses/resource/nist/control/sr-11> <https://w3id.org/sepses/ontology/nist#title> "Component Authenticity" .
+<https://w3id.org/sepses/resource/nist/control/sr-12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-12> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-12> <https://w3id.org/sepses/ontology/nist#id> "sr-12" .
+<https://w3id.org/sepses/resource/nist/control/sr-12> <https://w3id.org/sepses/ontology/nist#title> "Component Disposal" .
+<https://w3id.org/sepses/resource/nist/control/sr-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-2> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-2> <https://w3id.org/sepses/ontology/nist#id> "sr-2" .
+<https://w3id.org/sepses/resource/nist/control/sr-2> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Risk Management Plan" .
+<https://w3id.org/sepses/resource/nist/control/sr-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-3> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-3> <https://w3id.org/sepses/ontology/nist#id> "sr-3" .
+<https://w3id.org/sepses/resource/nist/control/sr-3> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Controls and Processes" .
+<https://w3id.org/sepses/resource/nist/control/sr-4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-4> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-4> <https://w3id.org/sepses/ontology/nist#id> "sr-4" .
+<https://w3id.org/sepses/resource/nist/control/sr-4> <https://w3id.org/sepses/ontology/nist#title> "Provenance" .
+<https://w3id.org/sepses/resource/nist/control/sr-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-5> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-5> <https://w3id.org/sepses/ontology/nist#id> "sr-5" .
+<https://w3id.org/sepses/resource/nist/control/sr-5> <https://w3id.org/sepses/ontology/nist#title> "Acquisition Strategies, Tools, and Methods" .
+<https://w3id.org/sepses/resource/nist/control/sr-6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-6> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-6> <https://w3id.org/sepses/ontology/nist#id> "sr-6" .
+<https://w3id.org/sepses/resource/nist/control/sr-6> <https://w3id.org/sepses/ontology/nist#title> "Supplier Assessments and Reviews" .
+<https://w3id.org/sepses/resource/nist/control/sr-7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-7> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-7> <https://w3id.org/sepses/ontology/nist#id> "sr-7" .
+<https://w3id.org/sepses/resource/nist/control/sr-7> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Operations Security" .
+<https://w3id.org/sepses/resource/nist/control/sr-8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-8> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-8> <https://w3id.org/sepses/ontology/nist#id> "sr-8" .
+<https://w3id.org/sepses/resource/nist/control/sr-8> <https://w3id.org/sepses/ontology/nist#title> "Notification Agreements" .
+<https://w3id.org/sepses/resource/nist/control/sr-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#Control> .
+<https://w3id.org/sepses/resource/nist/control/sr-9> <https://w3id.org/sepses/ontology/nist#hasClass> "SP800-53" .
+<https://w3id.org/sepses/resource/nist/control/sr-9> <https://w3id.org/sepses/ontology/nist#id> "sr-9" .
+<https://w3id.org/sepses/resource/nist/control/sr-9> <https://w3id.org/sepses/ontology/nist#title> "Tamper Resistance and Detection" .
+<https://w3id.org/sepses/resource/nist/family/ac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ac> <https://w3id.org/sepses/ontology/nist#id> "ac" .
+<https://w3id.org/sepses/resource/nist/family/ac> <https://w3id.org/sepses/ontology/nist#title> "Access Control" .
+<https://w3id.org/sepses/resource/nist/family/at> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/at> <https://w3id.org/sepses/ontology/nist#id> "at" .
+<https://w3id.org/sepses/resource/nist/family/at> <https://w3id.org/sepses/ontology/nist#title> "Awareness and Training" .
+<https://w3id.org/sepses/resource/nist/family/au> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/au> <https://w3id.org/sepses/ontology/nist#id> "au" .
+<https://w3id.org/sepses/resource/nist/family/au> <https://w3id.org/sepses/ontology/nist#title> "Audit and Accountability" .
+<https://w3id.org/sepses/resource/nist/family/ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ca> <https://w3id.org/sepses/ontology/nist#id> "ca" .
+<https://w3id.org/sepses/resource/nist/family/ca> <https://w3id.org/sepses/ontology/nist#title> "Assessment, Authorization, and Monitoring" .
+<https://w3id.org/sepses/resource/nist/family/cm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/cm> <https://w3id.org/sepses/ontology/nist#id> "cm" .
+<https://w3id.org/sepses/resource/nist/family/cm> <https://w3id.org/sepses/ontology/nist#title> "Configuration Management" .
+<https://w3id.org/sepses/resource/nist/family/cp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/cp> <https://w3id.org/sepses/ontology/nist#id> "cp" .
+<https://w3id.org/sepses/resource/nist/family/cp> <https://w3id.org/sepses/ontology/nist#title> "Contingency Planning" .
+<https://w3id.org/sepses/resource/nist/family/ia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ia> <https://w3id.org/sepses/ontology/nist#id> "ia" .
+<https://w3id.org/sepses/resource/nist/family/ia> <https://w3id.org/sepses/ontology/nist#title> "Identification and Authentication" .
+<https://w3id.org/sepses/resource/nist/family/ir> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ir> <https://w3id.org/sepses/ontology/nist#id> "ir" .
+<https://w3id.org/sepses/resource/nist/family/ir> <https://w3id.org/sepses/ontology/nist#title> "Incident Response" .
+<https://w3id.org/sepses/resource/nist/family/ma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ma> <https://w3id.org/sepses/ontology/nist#id> "ma" .
+<https://w3id.org/sepses/resource/nist/family/ma> <https://w3id.org/sepses/ontology/nist#title> "Maintenance" .
+<https://w3id.org/sepses/resource/nist/family/mp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/mp> <https://w3id.org/sepses/ontology/nist#id> "mp" .
+<https://w3id.org/sepses/resource/nist/family/mp> <https://w3id.org/sepses/ontology/nist#title> "Media Protection" .
+<https://w3id.org/sepses/resource/nist/family/pe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/pe> <https://w3id.org/sepses/ontology/nist#id> "pe" .
+<https://w3id.org/sepses/resource/nist/family/pe> <https://w3id.org/sepses/ontology/nist#title> "Physical and Environmental Protection" .
+<https://w3id.org/sepses/resource/nist/family/pl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/pl> <https://w3id.org/sepses/ontology/nist#id> "pl" .
+<https://w3id.org/sepses/resource/nist/family/pl> <https://w3id.org/sepses/ontology/nist#title> "Planning" .
+<https://w3id.org/sepses/resource/nist/family/pm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/pm> <https://w3id.org/sepses/ontology/nist#id> "pm" .
+<https://w3id.org/sepses/resource/nist/family/pm> <https://w3id.org/sepses/ontology/nist#title> "Program Management" .
+<https://w3id.org/sepses/resource/nist/family/ps> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ps> <https://w3id.org/sepses/ontology/nist#id> "ps" .
+<https://w3id.org/sepses/resource/nist/family/ps> <https://w3id.org/sepses/ontology/nist#title> "Personnel Security" .
+<https://w3id.org/sepses/resource/nist/family/pt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/pt> <https://w3id.org/sepses/ontology/nist#id> "pt" .
+<https://w3id.org/sepses/resource/nist/family/pt> <https://w3id.org/sepses/ontology/nist#title> "Personally Identifiable Information Processing and Transparency" .
+<https://w3id.org/sepses/resource/nist/family/ra> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/ra> <https://w3id.org/sepses/ontology/nist#id> "ra" .
+<https://w3id.org/sepses/resource/nist/family/ra> <https://w3id.org/sepses/ontology/nist#title> "Risk Assessment" .
+<https://w3id.org/sepses/resource/nist/family/sa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/sa> <https://w3id.org/sepses/ontology/nist#id> "sa" .
+<https://w3id.org/sepses/resource/nist/family/sa> <https://w3id.org/sepses/ontology/nist#title> "System and Services Acquisition" .
+<https://w3id.org/sepses/resource/nist/family/sc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/sc> <https://w3id.org/sepses/ontology/nist#id> "sc" .
+<https://w3id.org/sepses/resource/nist/family/sc> <https://w3id.org/sepses/ontology/nist#title> "System and Communications Protection" .
+<https://w3id.org/sepses/resource/nist/family/si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/si> <https://w3id.org/sepses/ontology/nist#id> "si" .
+<https://w3id.org/sepses/resource/nist/family/si> <https://w3id.org/sepses/ontology/nist#title> "System and Information Integrity" .
+<https://w3id.org/sepses/resource/nist/family/sr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sepses/ontology/nist#ControlFamily> .
+<https://w3id.org/sepses/resource/nist/family/sr> <https://w3id.org/sepses/ontology/nist#id> "sr" .
+<https://w3id.org/sepses/resource/nist/family/sr> <https://w3id.org/sepses/ontology/nist#title> "Supply Chain Risk Management" .

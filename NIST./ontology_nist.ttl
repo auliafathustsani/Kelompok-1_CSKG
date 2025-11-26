@@ -1,0 +1,133 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+@prefix nist: <https://w3id.org/sepses/ontology/nist#> .
+
+#######################################################
+# Ontology Header
+#######################################################
+
+nist: a owl:Ontology ;
+    dct:title "NIST SP800-53 Security Controls Ontology" ;
+    dct:description "Core ontology describing NIST control families, controls, statements, parameters, and relationships." ;
+    dct:creator "Kesya Izumi" ;
+    dct:source "NIST SP800-53 OSCAL JSON Catalog" .
+
+#######################################################
+# Core Classes
+#######################################################
+
+nist:Catalog a owl:Class ;
+    rdfs:label "NIST Catalog" ;
+    rdfs:comment "Represents the entire SP800-53 security control catalog." .
+
+nist:ControlFamily a owl:Class ;
+    rdfs:label "Control Family" ;
+    rdfs:comment "A high-level group of related NIST security controls (e.g., AC, IA, AU)." .
+
+nist:Control a owl:Class ;
+    rdfs:label "Control" ;
+    rdfs:comment "A single NIST control (e.g., AC-1)." .
+
+nist:Statement a owl:Class ;
+    rdfs:label "Control Statement" ;
+    rdfs:comment "Specific statement or sub-part of a NIST control." .
+
+nist:Parameter a owl:Class ;
+    rdfs:label "Control Parameter" ;
+    rdfs:comment "Indicates parameterized values used within NIST controls." .
+
+nist:Property a owl:Class ;
+    rdfs:label "Property" ;
+    rdfs:comment "Metadata property associated with controls (sort-id, label, implementation-level)." .
+
+nist:Link a owl:Class ;
+    rdfs:label "Link" ;
+    rdfs:comment "Reference to another control or related control." .
+
+#######################################################
+# Object Properties
+#######################################################
+
+nist:hasFamily a owl:ObjectProperty ;
+    rdfs:domain nist:Catalog ;
+    rdfs:range nist:ControlFamily ;
+    rdfs:label "has family" ;
+    rdfs:comment "Links catalog → control family." .
+
+nist:hasControl a owl:ObjectProperty ;
+    rdfs:domain nist:ControlFamily ;
+    rdfs:range nist:Control ;
+    rdfs:label "has control" ;
+    rdfs:comment "Links family → controls." .
+
+nist:hasStatement a owl:ObjectProperty ;
+    rdfs:domain nist:Control ;
+    rdfs:range nist:Statement ;
+    rdfs:label "has statement" ;
+    rdfs:comment "Links control → statements." .
+
+nist:hasParameter a owl:ObjectProperty ;
+    rdfs:domain nist:Control ;
+    rdfs:range nist:Parameter ;
+    rdfs:label "has parameter" ;
+    rdfs:comment "Links control → parameters." .
+
+nist:hasProperty a owl:ObjectProperty ;
+    rdfs:domain nist:Control ;
+    rdfs:range nist:Property ;
+    rdfs:label "has property" ;
+    rdfs:comment "Links control → metadata properties." .
+
+nist:relatedTo a owl:ObjectProperty ;
+    rdfs:domain nist:Control ;
+    rdfs:range nist:Control ;
+    rdfs:label "related to" ;
+    rdfs:comment "Links control to another related control (from OSCAL link)." .
+
+#######################################################
+# Datatype Properties
+#######################################################
+
+nist:id a owl:DatatypeProperty ;
+    rdfs:domain nist:Control, nist:ControlFamily, nist:Parameter ;
+    rdfs:range xsd:string ;
+    rdfs:label "ID" .
+
+nist:title a owl:DatatypeProperty ;
+    rdfs:domain nist:Control, nist:ControlFamily, nist:Statement ;
+    rdfs:range xsd:string ;
+    rdfs:label "Title" .
+
+nist:prose a owl:DatatypeProperty ;
+    rdfs:domain nist:Statement ;
+    rdfs:range xsd:string ;
+    rdfs:label "Prose" .
+
+nist:paramValue a owl:DatatypeProperty ;
+    rdfs:domain nist:Parameter ;
+    rdfs:range xsd:string ;
+    rdfs:label "Parameter Value" .
+
+nist:propLabel a owl:DatatypeProperty ;
+    rdfs:domain nist:Property ;
+    rdfs:range xsd:string ;
+    rdfs:label "Property Label" .
+
+nist:propValue a owl:DatatypeProperty ;
+    rdfs:domain nist:Property ;
+    rdfs:range xsd:string ;
+    rdfs:label "Property Value" .
+
+nist:href a owl:DatatypeProperty ;
+    rdfs:domain nist:Link ;
+    rdfs:range xsd:anyURI ;
+    rdfs:label "Href" .
+
+nist:rel a owl:DatatypeProperty ;
+    rdfs:domain nist:Link ;
+    rdfs:range xsd:string ;
+    rdfs:label "Relation" .
